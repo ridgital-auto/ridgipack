@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rangkuman Belajar — Akademi Marketer</title>
+<meta name="description" content="Dashboard rangkuman materi dan tools praktis dari kursus Akademi Marketer (untuk penggunaan pribadi)">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">📚</span>
+    <div>
+      <h1>Rangkuman Belajar</h1>
+      <p>Akademi Marketer — untuk penggunaan pribadi</p>
+    </div>
+  </div>
+  <nav class="tabs">
+    <button class="tab active" data-tab="materi">📖 Materi</button>
+    <button class="tab" data-tab="tools">🛠️ Tools</button>
+  </nav>
+</header>
+
+<main>
+  <!-- TAB MATERI -->
+  <section id="tab-materi" class="tabpanel">
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="🔍 Cari judul atau topik…" autocomplete="off">
+      <div id="chips" class="chips"></div>
+    </div>
+    <div id="stats" class="stats"></div>
+    <div id="list" class="cards"></div>
+  </section>
+
+  <!-- TAB TOOLS -->
+  <section id="tab-tools" class="tabpanel hidden">
+    <div class="tools-grid">
+
+      <div class="tool-card">
+        <h2>🧮 Kalkulator Laba-Rugi Iklan</h2>
+        <p>Hitung untung/rugi dan ROAS impas sebelum pasang iklan.</p>
+        <label>Harga jual (Rp) <input id="k-harga" type="number" value="150000"></label>
+        <label>Modal produk (Rp) <input id="k-modal" type="number" value="60000"></label>
+        <label>Ongkir ditanggung (Rp) <input id="k-ongkir" type="number" value="15000"></label>
+        <label>Budget iklan per hari (Rp) <input id="k-budget" type="number" value="100000"></label>
+        <label>Target order per hari <input id="k-order" type="number" value="5"></label>
+        <button class="btn primary" id="k-hitung">Hitung</button>
+        <div id="k-hasil" class="hasil"></div>
+      </div>
+
+      <div class="tool-card">
+        <h2>✅ Checklist Riset Produk</h2>
+        <p>Langkah validasi produk sebelum diiklankan.</p>
+        <div id="checklist"></div>
+        <div class="progress"><div id="check-bar"></div></div>
+        <p id="check-label" class="muted"></p>
+      </div>
+
+      <div class="tool-card">
+        <h2>📣 Template Planning CTWA 1-1-5</h2>
+        <p>Struktur campaign: 1 campaign, 1 adset, 5 ads.</p>
+        <label>Nama produk <input id="t-produk" type="text" placeholder="cth: Kipas angin leher"></label>
+        <label>Budget harian (Rp) <input id="t-budget" type="number" value="100000"></label>
+        <label>Angle iklan 1 <input id="t-a1" type="text" placeholder="cth: kepanasan saat macet"></label>
+        <label>Angle iklan 2 <input id="t-a2" type="text" placeholder="cth: keringat berlebih"></label>
+        <label>Angle iklan 3 <input id="t-a3" type="text" placeholder="cth: hadiah unik"></label>
+        <label>Angle iklan 4 <input id="t-a4" type="text" placeholder="cth: testimoni"></label>
+        <label>Angle iklan 5 <input id="t-a5" type="text" placeholder="cth: promo terbatas"></label>
+        <button class="btn primary" id="t-buat">Buat Ringkasan Plan</button>
+        <div id="t-hasil" class="hasil"></div>
+      </div>
+
+      <div class="tool-card wide">
+        <h2>📖 Kamus Istilah</h2>
+        <p>Istilah-istilah yang sering dipakai mentor.</p>
+        <div id="kamus" class="kamus"></div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Rangkuman belajar pribadi • Bukan afiliasi resmi Akademi Marketer</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
