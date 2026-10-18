@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rangkuman Belajar — Akademi Marketer</title>
-<meta name="description" content="Dashboard rangkuman materi dan tools praktis dari kursus Akademi Marketer (untuk penggunaan pribadi)">
+<meta name="description" content="Dashboard rangkuman materi, project, dan tools praktis dari kursus Akademi Marketer (untuk penggunaan pribadi)">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,7 +19,9 @@
   </div>
   <nav class="tabs">
     <button class="tab active" data-tab="materi">📖 Materi</button>
+    <button class="tab" data-tab="project">🎯 Project</button>
     <button class="tab" data-tab="tools">🛠️ Tools</button>
+    <button class="tab" data-tab="ai">🤖 Tanya AI</button>
   </nav>
 </header>
 
@@ -34,10 +36,18 @@
     <div id="list" class="cards"></div>
   </section>
 
+  <!-- TAB PROJECT -->
+  <section id="tab-project" class="tabpanel hidden">
+    <div class="toolbar">
+      <button class="btn primary" id="btn-new-project">＋ Buat Project Baru</button>
+      <button class="btn ghost" id="btn-from-template">📋 Dari Template</button>
+    </div>
+    <div id="project-list" class="cards"></div>
+  </section>
+
   <!-- TAB TOOLS -->
   <section id="tab-tools" class="tabpanel hidden">
     <div class="tools-grid">
-
       <div class="tool-card">
         <h2>🧮 Kalkulator Laba-Rugi Iklan</h2>
         <p>Hitung untung/rugi dan ROAS impas sebelum pasang iklan.</p>
@@ -49,7 +59,6 @@
         <button class="btn primary" id="k-hitung">Hitung</button>
         <div id="k-hasil" class="hasil"></div>
       </div>
-
       <div class="tool-card">
         <h2>✅ Checklist Riset Produk</h2>
         <p>Langkah validasi produk sebelum diiklankan.</p>
@@ -57,7 +66,6 @@
         <div class="progress"><div id="check-bar"></div></div>
         <p id="check-label" class="muted"></p>
       </div>
-
       <div class="tool-card">
         <h2>📣 Template Planning CTWA 1-1-5</h2>
         <p>Struktur campaign: 1 campaign, 1 adset, 5 ads.</p>
@@ -71,22 +79,58 @@
         <button class="btn primary" id="t-buat">Buat Ringkasan Plan</button>
         <div id="t-hasil" class="hasil"></div>
       </div>
-
       <div class="tool-card wide">
         <h2>📖 Kamus Istilah</h2>
         <p>Istilah-istilah yang sering dipakai mentor.</p>
         <div id="kamus" class="kamus"></div>
       </div>
+    </div>
+  </section>
 
+  <!-- TAB AI -->
+  <section id="tab-ai" class="tabpanel hidden">
+    <div class="ai-wrap">
+      <div class="ai-head">
+        <h2>🤖 Tanya AI</h2>
+        <p class="muted">Tanya apa saja seputar materi Akademi Marketer. Jawaban disusun dari 143 rangkuman video.</p>
+      </div>
+      <div id="chat" class="chat"></div>
+      <div class="chat-input">
+        <input id="q" type="text" placeholder="cth: gimana cara riset produk yang bagus?" autocomplete="off">
+        <button class="btn primary" id="btn-ask">Kirim</button>
+      </div>
+      <div class="suggest">
+        <button class="chip q-suggest">Apa itu CTWA 1-1-5?</button>
+        <button class="chip q-suggest">Gimana biar nggak boncos?</button>
+        <button class="chip q-suggest">Cara bikin killing offer?</button>
+        <button class="chip q-suggest">Apa itu ROAS?</button>
+      </div>
     </div>
   </section>
 </main>
+
+<!-- MODAL DETAIL MATERI -->
+<div id="modal" class="modal hidden">
+  <div class="modal-box">
+    <button class="modal-close" id="modal-close">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<!-- MODAL PROJECT -->
+<div id="pmodal" class="modal hidden">
+  <div class="modal-box wide">
+    <button class="modal-close" id="pmodal-close">✕</button>
+    <div id="pmodal-content"></div>
+  </div>
+</div>
 
 <footer>
   <p>Rangkuman belajar pribadi • Bukan afiliasi resmi Akademi Marketer</p>
 </footer>
 
 <script src="data.js"></script>
+<script src="templates.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
