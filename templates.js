@@ -1105,5 +1105,1018 @@ window.PROJECT_TEMPLATES = [
         ]
       }
     ]
+  },
+  {
+    "id": "tpl-konten",
+    "nama": "🎨 Bikin Konten Iklan yang Menjual",
+    "deskripsi": "Panduan bikin foto, video, dan copywriting iklan yang bikin orang klik.",
+    "levels": [
+      {
+        "nama": "Level 1 — Persiapan Konten",
+        "deskripsi": "Siapkan alat & rencana.",
+        "tasks": [
+          {
+            "text": "Siapkan HP & pencahayaan untuk shooting",
+            "panduan": [
+              "Ambil HP yang kameranya paling jernih — tidak harus mahal, yang penting lensanya bersih dan memorinya masih lega.",
+              "Buka aplikasi Kamera (ikon kamera), lalu cek baterai: pastikan di atas 50%. Colok charger selama shooting biar aman.",
+              "Cek memori HP: buka Pengaturan (ikon gir) → Penyimpanan. Kalau sisa di bawah 2 GB, hapus dulu foto/video sampah di Galeri.",
+              "Lap lensa kamera pakai kain lembut (kaos bersih juga boleh). Lensa berdebu = video buram.",
+              "Siapkan 'tripod' darurat: tumpuk 3-4 buku tebal di meja, sandarkan HP di situ. Video goyang-goyang bikin orang malas nonton.",
+              "Cari cahaya terbaik yang GRATIS: dekat jendela atau pintu saat siang hari. Cahaya alami selalu menang dari lampu kamar.",
+              "Posisikan produk MEMBELAKANGI cahaya — artinya cahaya dari jendela jatuh KE produk, bukan ke kamera. Kalau kamera yang membelakangi jendela, produknya jadi gelap.",
+              "Matikan lampu kuning kamar kalau warnanya bikin produk terlihat kusam. Cahaya putih dari jendela lebih jujur.",
+              "Aktifkan Mode Pesawat (ikon pesawat di panel atas HP) ATAU minimal aktifkan 'Jangan Ganggu' — supaya tidak ada telepon masuk di tengah rekaman.",
+              "Rekam video tes 10 detik: ngomong biasa, gerakkan produk. Putar ulang di Galeri (ikon bunga/pigura) — cek gambar terang dan suara jelas.",
+              "Kalau suara kecil atau berisik, rekam ulang dengan HP lebih dekat (jarak 1 lengan), atau pindah ke ruangan yang lebih sepi.",
+              "Kalau tes sudah bagus, JANGAN ubah-ubah posisi HP dan cahaya lagi. Biarkan setup-nya begitu untuk semua video hari ini biar hasilnya konsisten."
+            ]
+          },
+          {
+            "text": "Riset angle kompetitor di Ad Library",
+            "panduan": [
+              "Kenalan dulu sama 2 istilah: 'angle' = sudut pandang iklan (misal: iklan yang pamer hasil, iklan yang cerita masalah, iklan yang kasih diskon). 'Ad Library' = perpustakaan iklan resmi milik Facebook — tempat kita bisa NGINTIP iklan siapa saja yang sedang tayang. Legal dan gratis.",
+              "Buka Chrome (ikon bulat warna-warni) di HP atau laptop.",
+              "Ketuk kolom address bar di atas (kotak panjang tempat mengetik alamat web), ketik persis: facebook.com/ads/library lalu tekan Enter/tombol cari.",
+              "Di halaman yang muncul, cari kolom 'Pilih negara' — pilih Indonesia. Ini supaya yang muncul iklan yang tayang di Indonesia.",
+              "Di kolom pencarian, ketik nama produk sejenis dengan yang kamu jual (misal: 'sabun wajah', 'kopi diet', 'rak sepatu'). Tekan Enter.",
+              "Scroll daftar iklan yang muncul. Fokus ke iklan yang tulisannya 'Aktif sejak ...' berbulan-bulan — artinya iklan itu LARIS (kalau boncos/rugi, pasti sudah dimatikan pemiliknya).",
+              "Buka 3-5 iklan yang tayang lama itu satu per satu. Perhatikan 3 hal: (1) kalimat pembukanya apa, (2) videonya menunjukkan apa, (3) ajakannya apa.",
+              "Screenshot tiap iklan yang bagus: tekan tombol Power + Volume Bawah barengan. Tanda berhasil: layar berkedip dan ada notifikasi 'Screenshot tersimpan'.",
+              "Buka aplikasi Notes/Catatan, bikin catatan baru berjudul 'Riset Iklan Kompetitor'.",
+              "Tulis pola yang kamu temukan, contoh: '3 dari 5 iklan sabun wajah buka dengan video before-after' — artinya angle before-after TERBUKTI laku di produk ini.",
+              "Tulis juga 1 hal yang TIDAK akan kamu tiru mentah-mentah: kalimatnya harus kamu tulis ulang dengan bahasamu sendiri. Meniru mentah-mentah = plagiat dan bisa dilaporkan.",
+              "Tutup dengan 1 kalimat rencana: 'Saya akan bikin 5 video dengan angle yang terbukti laku, tapi dengan gaya saya sendiri.'"
+            ]
+          },
+          {
+            "text": "Tulis script 5 angle iklan",
+            "panduan": [
+              "'Script' = naskah: tulisan panduan tentang apa yang mau kamu omongin dan tunjukin di video. Tanpa script, orang shooting biasanya bingung di tengah jalan dan videonya kepanjangan.",
+              "Buka aplikasi Notes/Catatan di HP (ikon kertas kuning/putih), bikin catatan baru berjudul 'Script 5 Angle Iklan'.",
+              "Tulis ANGLE 1 — Demo produk: tunjukkan cara pakai dari awal sampai akhir. Contoh script: hook (hook = kalimat pembuka yang bikin orang penasaran) 'Nih cara pakai serum biar hasilnya maksimal' → isi: tetes 2-3 tetes, ratakan, tunggu meresap → CTA (CTA = ajakan bertindak, misal 'klik tombol di bawah') 'cara pakainya gampang kan? Klik tombol di bawah buat order'.",
+              "Tulis ANGLE 2 — Before-after: tunjukkan kondisi sebelum dan sesudah pakai produk. Contoh: hook 'Wajahku dulu kusam kayak gini...' → isi: tunjukkan foto before, ceritakan pemakaian 2 minggu, tunjukkan foto after → CTA 'mau hasilnya kayak gini juga? Chat sekarang'.",
+              "Tulis ANGLE 3 — Testimoni: biarkan pelanggan yang cerita. Contoh: hook 'Kata kak Rina setelah 1 bulan pakai...' → isi: 3 pertanyaan (masalahnya apa dulu, gimana setelah pakai, pesan buat yang masih ragu) → CTA 'testimoni asli, bukan bayaran'.",
+              "Tulis ANGLE 4 — Masalah-solusi: tusuk masalah penonton dulu, baru kasih solusi. Contoh: hook 'Capek jerawat muncul terus tiap bulan?' → isi: jelaskan penyebabnya singkat, kenalkan produk sebagai solusi → CTA 'stop jerawatnya mulai hari ini'.",
+              "Tulis ANGLE 5 — Promo/harga: bikin orang merasa rugi kalau tidak beli sekarang. Contoh: hook 'Diskon 50% cuma sampai besok!' → isi: sebut harga normal, harga promo, bonus yang didapat → CTA 'klik sebelum promonya habis'.",
+              "Cek tiap script: total kalau dibacakan tidak lebih dari 60 detik (video iklan yang bagus biasanya 15-60 detik). Kepanjangan? Coret kalimat yang tidak penting.",
+              "Baca tiap script keras-keras sekali. Kalau ada kalimat yang bikin lidahmu keseleo, tulis ulang dengan kata yang lebih gampang diucapkan.",
+              "Di bawah tiap script, tulis properti yang dibutuhkan (misal angle 2 butuh foto before-after, angle 3 butuh kontak pelanggan).",
+              "Urutkan: kerjakan dulu angle yang paling gampang (biasanya demo produk), yang butuh bantuan orang lain (testimoni) belakangan.",
+              "Simpan catatan. Mulai sekarang, setiap mau shooting, buka catatan ini — tidak ada lagi video 'asal rekam'."
+            ]
+          },
+          {
+            "text": "Siapkan properti & lokasi shooting",
+            "panduan": [
+              "Pilih 1 sudut di rumah/kos yang paling rapi dan terang — biasanya dekat jendela ruang tamu atau kamar. Ini jadi 'studio' kamu.",
+              "Bersihkan background (latar belakang): singkirkan jemuran, tumpukan baju, dan barang berantakan yang masuk kamera. Background berantakan = terlihat tidak profesional.",
+              "Siapkan meja kecil sebagai 'panggung' produk. Lap mejanya sampai bersih — debu kelihatan jelas di kamera.",
+              "Kumpulkan produk yang mau difoto/direkam: pastikan kemasannya mulus, tidak penyok, dan labelnya menghadap kamera.",
+              "Siapkan properti pendukung sesuai script: misal jualan skincare siapkan handuk bersih dan mangkok air; jualan makanan siapkan piring cantik.",
+              "Siapkan juga 'cadangan': 1-2 pcs produk ekstra kalau yang pertama jatuh atau kotor saat shooting.",
+              "Tulis poin-poin script di kertas (contekan), tempel di dekat HP tapi di luar jangkauan kamera. Ini penyelamat biar tidak blank saat ngomong.",
+              "Cek suara: tutup pintu/jendela, matikan kipas angin yang berisik dan TV. Rekam tes 5 detik, dengarkan — kalau masih berisik, pindah ruangan.",
+              "Atur HP di tripod/tumpukan buku, buka aplikasi Kamera, cek framing: produk di tengah, ada sedikit ruang kosong di atasnya (jangan mepet banget).",
+              "Minta tolong 1 orang jadi 'kru': memegang properti, mengecek hasil di layar, atau sekadar memastikan tidak ada yang masuk frame tiba-tiba.",
+              "Foto 1 gambar 'pemanasan' dan lihat hasilnya di Galeri. Kalau sudah terang, tajam, dan rapi — studio kamu SIAP. Jangan pindah-pindah lokasi lagi hari ini."
+            ]
+          }
+        ]
+      },
+      {
+        "nama": "Level 2 — Produksi",
+        "deskripsi": "Rekam & foto.",
+        "tasks": [
+          {
+            "text": "Rekam video demo produk (unboxing + cara pakai)",
+            "panduan": [
+              "Buka script Angle 1 (demo produk) di Notes — taruh HP kedua atau kertas contekan di dekat kamera biar gampang mengintip.",
+              "Buka aplikasi Kamera (ikon kamera), geser pilihan mode ke 'Video' (biasanya di bawah layar, geser sampai tulisan Video menyala).",
+              "Putar HP TEGAK (portrait/berdiri) untuk iklan di HP (Story/Reels/iklan Meta) karena layarnya penuh. Putar MIRING (landscape/tidur) kalau videonya untuk YouTube atau Facebook feed.",
+              "Atur resolusi: ketuk ikon gir/pengaturan di aplikasi Kamera, pilih 1080p (tulisannya 1920x1080). 'Resolusi' = ketajaman gambar; 1080p sudah cukup tajam untuk iklan dan filenya tidak terlalu besar.",
+              "Posisikan produk di tengah frame, tekan tombol lingkaran MERAH besar untuk mulai merekam. Tanda berhasil: tombol berubah jadi kotak merah + timer berjalan (00:01, 00:02...).",
+              "MULAI dengan unboxing: buka kemasan perlahan di depan kamera, tunjukkan isi paket satu per satu sambil sebutkan namanya.",
+              "Lanjut ke cara pakai: praktikkan LANGKAH DEMI LANGKAH sesuai script, ngomong yang jelas dan pelan. Tunjukkan tanganmu memakai produk dari DEKAT (dekatkan HP-nya, jangan pakai zoom digital yang bikin gambar pecah).",
+              "Akhiri dengan hasil: tunjukkan kondisi setelah produk dipakai ('nih hasilnya...').",
+              "Tutup dengan CTA lisan: 'Mau coba juga? Klik tombol di bawah video ini ya.'",
+              "Tekan tombol kotak merah untuk BERHENTI. Tanda berhasil: timer berhenti dan muncul thumbnail video tersimpan.",
+              "Buka Galeri (ikon bunga/pigura), putar video dari awal sampai akhir. Cek 3 hal: gambar terang, suara jelas, durasi 15-60 detik.",
+              "Kalau ada yang salah (gelap, berisik, keseleo ngomong), rekam ulang SEKARANG mumpung setup masih sama. Jangan tunda besok — cahayanya beda, hasilnya tidak konsisten."
+            ]
+          },
+          {
+            "text": "Foto produk before-after / hasil pemakaian",
+            "panduan": [
+              "'Before-after' = foto perbandingan: kondisi SEBELUM pakai produk vs SESUDAH pakai. Ini angle iklan paling ampuh karena buktinya kelihatan oleh mata.",
+              "Lap lensa kamera sekali lagi, buka aplikasi Kamera, pastikan modenya 'Foto' (bukan Video).",
+              "Nyalakan garis bantu (grid): ketuk ikon gir di Kamera → aktifkan 'Grid'/'Garis bantu'. Garis ini membantu foto tidak miring.",
+              "Foto BEFORE: posisikan kondisi awal, ambil dari sudut yang akan kamu ingat (misal: dari depan, jarak 1 lengan). Ketuk tombol lingkaran putih untuk memotret.",
+              "PENTING: catat posisi foto before — dari sudut mana, jarak berapa, cahaya dari mana. Tulis di Notes: 'before: depan, 1 lengan, cahaya jendela kiri'.",
+              "Pakai/gunakan produk sesuai fungsinya (atau kalau ini foto 'hasil pemakaian', tunjukkan produk sedang dipakai).",
+              "Foto AFTER: ulangi PERSIS posisi foto before — sudut sama, jarak sama, cahaya sama. Ini yang bikin perbandingannya meyakinkan.",
+              "Buka Galeri, bandingkan kedua foto berdampingan. Tanda berhasil: perbedaannya KELIHATAN jelas meski dilihat sekilas.",
+              "Kalau perbedaannya tidak kelihatan, ulangi dengan pencahayaan lebih terang atau ambil lebih dekat. Jangan dipaksakan — before-after yang tidak meyakinkan malah merusak kepercayaan.",
+              "Pilih 1 pasang foto terbaik, ketuk ikon hati/bintang (favorit) di Galeri supaya gampang dicari saat mau dipasang ke iklan.",
+              "JUJUR itu wajib: hanya pakai foto asli hasil pemakaian nyata. Foto palsu atau editan berlebihan = pelanggan kecewa = nama jualanmu rusak."
+            ]
+          },
+          {
+            "text": "Rekam video testimoni pelanggan",
+            "panduan": [
+              "'Testimoni' = cerita puas dari pelanggan yang SUDAH beli dan merasakan hasilnya. Buat calon pembeli, omongan pelanggan 10x lebih dipercaya daripada omongan penjual.",
+              "Buka WhatsApp (ikon hijau bergambar telepon) di HP.",
+              "Cari chat pembeli yang pernah bilang puas atau repeat order. Ketuk nama chat-nya untuk membuka.",
+              "Kirim pesan izin yang sopan, contoh ketik: 'Halo kak, boleh minta tolong? Boleh minta video testimoni singkat 30 detik? Buat bantu promosi. Nanti saya kasih voucher/diskon buat order berikutnya.'",
+              "Kalau dia SETUJU, kirim 3 pertanyaan panduan (biar dia tidak bingung mau ngomong apa): (1) 'Dulu masalahnya apa sebelum pakai produk ini?' (2) 'Gimana rasanya setelah pakai?' (3) 'Ada pesan buat yang masih ragu mau beli?'",
+              "Kasih tips merekam ke dia: 'Rekam pakai HP tegak, di tempat terang, durasinya 30 detik aja cukup, ngomong santai kayak cerita ke teman.'",
+              "Tunggu videonya dikirim. Kalau 2 hari belum ada, ingatkan sekali dengan sopan: 'Halo kak, videonya jadi dikirim? Santai aja, tidak buru-buru.'",
+              "Begitu video diterima, ketuk video di chat → ketuk ikon download (panah ke bawah) kalau belum terdownload otomatis. Tanda berhasil: video bisa diputar langsung di chat.",
+              "Tekan lama video → pilih 'Teruskan' atau simpan: ketuk titik tiga → 'Simpan ke Galeri'. Cek di Galeri bahwa videonya sudah tersimpan.",
+              "Minta izin TERTULIS untuk dipasang di iklan: ketik 'Boleh ya kak videonya saya pasang di iklan? Wajah kakak akan kelihatan.' Tunggu dia jawab 'boleh' — screenshot jawabannya sebagai bukti izin.",
+              "Simpan screenshot izin + videonya di 1 folder khusus di Galeri/File Manager bernama 'Testimoni'. Kumpulkan terus — makin banyak testimoni, makin kuat jualanmu."
+            ]
+          },
+          {
+            "text": "Edit video sederhana di CapCut",
+            "panduan": [
+              "Download aplikasi CapCut (ikon HITAM bergambar GUNTING putih) di Play Store kalau belum ada. Buka aplikasinya.",
+              "Di halaman utama CapCut, ketuk tombol 'Proyek baru' (biasanya kotak besar bertuliskan + Proyek baru).",
+              "Pilih video yang mau diedit dari Galeri (ketuk videonya sampai ada tanda centang), lalu ketuk tombol 'Tambah' di kanan bawah. Tanda berhasil: video muncul di timeline (garis panjang di bawah layar).",
+              "POTONG bagian jelek: geser garis putih (playhead) ke awal bagian yang mau dibuang (misal: jeda lama, batuk) → ketuk menu 'Bagi'/'Split' (ikon gunting) → ketuk potongan yang jelek → ketuk 'Hapus' (ikon tong sampah).",
+              "Ulangi langkah potong sampai video tinggal bagian bagusnya saja, target durasi 15-60 detik.",
+              "Tambahkan TEKS HOOK di 3 detik pertama: ketuk menu 'Teks' di bawah → 'Tambahkan teks' → ketik hook-mu (misal: 'JERAWAT HILANG 2 MINGGU?!') → atur posisi teks di ATAS video → perpanjang kotaknya sampai menutupi 3 detik pertama di timeline.",
+              "Tambahkan teks untuk bagian penting: untuk bagian kamu ngomong yang penting, tambahkan teks dengan cara yang sama supaya orang yang nonton tanpa suara tetap paham.",
+              "Tambahkan MUSIK: ketuk menu 'Audio' → 'Musik' → pilih lagu yang tenang dan tidak menutupi suaramu. Kecilkan volumenya: ketuk trek musik → geser volume ke sekitar 10-20.",
+              "'Thumbnail' = gambar sampul video (yang pertama dilihat orang). Pilih momen paling menarik: geser playhead ke momen before-after atau ekspresi kaget — itu jadi sampul otomatis saat diupload nanti.",
+              "Putar video dari awal sampai akhir (ketuk tombol play segitiga). Cek: teks tidak menutupi wajah/produk, musik tidak lebih keras dari suaramu, tidak ada bagian jelek tersisa.",
+              "Ketuk tombol 'Ekspor' (panah ke atas, biasanya di kanan atas). Di pengaturan ekspor, pilih Resolusi 1080p dan Frame rate 30. Ketuk 'Ekspor' lagi.",
+              "Tunggu sampai 100% — JANGAN tutup aplikasi. Tanda berhasil: muncul tulisan 'Tersimpan ke perangkat' atau video otomatis terbuka di Galeri.",
+              "Buka Galeri, putar hasil akhirnya sekali lagi di HP. Kalau sudah enak ditonton, beri nama file yang jelas (misal: 'iklan-demo-produk-1.mp4') supaya gampang dicari saat upload ke iklan."
+            ]
+          }
+        ]
+      },
+      {
+        "nama": "Level 3 — Copywriting & Publish",
+        "deskripsi": "Tulis & upload.",
+        "tasks": [
+          {
+            "text": "Tulis hook 3 detik pembuka video",
+            "panduan": [
+              "'Hook' = KAIL PANCING: kalimat atau gambar di 3 DETIK PERTAMA video yang bikin orang BERHENTI scroll. Orang memutuskan nonton atau skip hanya dalam 3 detik — hook yang lemah = videomu diskip.",
+              "Buka catatan 'Riset Iklan Kompetitor' — lihat hook apa yang dipakai iklan-iklan laris tadi. Itu bahan inspirasimu.",
+              "Buka Notes, bikin catatan baru 'Bank Hook'. Tulis 5 hook dengan 5 jurus berbeda: (1) ANGKA: 'Jerawatku hilang dalam 14 hari!' (2) PERTANYAAN: 'Masih pakai cara lama buat bersihin komedo?' (3) PERNYATAAN BERANI: 'Stop beli serum mahal!' (4) CERITA: 'Dulu aku minder difoto...' (5) HASIL: 'Nih buktinya, before-after 2 minggu.'",
+              "Baca kelima hook keras-keras. Pilih 1 yang paling bikin KAMU sendiri penasaran — kalau kamu saja tidak penasaran, orang lain apalagi.",
+              "Uji hook pilihanmu dengan 'tes 3 detik': bisa dipahami orang yang baru pertama dengar dalam sekali baca? Kalau harus mikir dulu = terlalu rumit, tulis ulang lebih pendek.",
+              "Buka CapCut, buka proyek video iklanmu.",
+              "Pasang hook sebagai TEKS BESAR di detik 0-3: ketuk 'Teks' → 'Tambahkan teks' → ketik hook → perbesar hurufnya (cubit layar dengan 2 jari) → taruh di tengah-atas video.",
+              "Pastikan 3 detik pertama video juga MENUNJUKKAN hal menarik (wajah kaget, produk dibuka, foto before) — hook teks + visual menarik = kombinasi maut.",
+              "Hindari hook 'Halo guys, selamat datang di...' — itu 3 detik terbuang. Langsung to the point.",
+              "Ekspor ulang videonya (tombol Ekspor di kanan atas, 1080p) setelah hook terpasang.",
+              "Tulis hook yang menang di 'Bank Hook' dan kasih bintang. Lama-lama kamu punya koleksi hook terbukti — bikin iklan berikutnya jadi 10x lebih cepat."
+            ]
+          },
+          {
+            "text": "Tulis caption iklan (masalah-solusi-CTA)",
+            "panduan": [
+              "Kenalan istilah: 'caption' = tulisan yang menyertai iklan (yang dibaca orang di bawah atau di samping video). 'CTA' = Call To Action = AJAKAN BERTINDAK, kalimat yang menyuruh orang melakukan sesuatu (misal: 'Klik tombol di bawah', 'Chat sekarang'). Iklan tanpa CTA = orang bingung mau ngapain.",
+              "Buka Notes, bikin catatan 'Caption Iklan Produk'.",
+              "Tulis BAGIAN 1 — MASALAH (1-2 kalimat): tusuk masalah pembaca. Contoh: 'Capek tiap pagi nutupin jerawat pakai concealer tebal?' Pakai kata 'kamu' biar terasa personal.",
+              "Tulis BAGIAN 2 — SOLUSI (2-3 kalimat): kenalkan produkmu sebagai jalan keluar. Contoh: 'Serum X dengan niacinamide membantu menenangkan jerawat dalam 14 hari pemakaian rutin.' Sebut 1-2 bahan atau manfaat UTAMA saja, jangan semua.",
+              "Tulis BAGIAN 3 — BUKTI (1 kalimat): contoh 'Sudah 500+ botol terjual, rating 4.9/5 di Shopee.' Kalau belum ada angka, pakai testimoni singkat: 'Kata kak Rina: jerawatku kering dalam seminggu.'",
+              "Tulis BAGIAN 4 — CTA (1-2 kalimat): contoh 'Mau jerawatmu juga hilang? Klik tombol Kirim Pesan di bawah, langsung chat WA admin.' Kalau pakai link: tempel link WA-mu (misal wa.me/62812xxxxxxx).",
+              "Baca ulang semuanya. Coret kata-kata lebay seperti 'TERBAIK SE-DUNIA' atau 'DIJAMIN 100% SEMBUH' — klaim berlebihan bikin iklan DITOLAK Meta dan bikin orang tidak percaya.",
+              "Cek panjangnya: caption iklan yang bagus biasanya 50-150 kata. Kepanjangan = orang malas baca.",
+              "Tambahkan 2-3 emoji yang RELEVAN (misal untuk skincare) — jangan lebih, kebanyakan emoji terlihat norak.",
+              "Minta 1 orang membaca caption-mu dan tanya: 'Setelah baca ini, kamu disuruh ngapain?' Kalau dia jawab sesuai CTA-mu = caption BERHASIL.",
+              "Simpan 3 versi caption (ganti hook atau CTA-nya) di Notes — nanti dipakai untuk 3 dari 5 ads biar bisa dites mana yang paling laku.",
+              "Ingat rumus selamanya: MASALAH → SOLUSI → BUKTI → CTA. Setiap caption iklanmu ke depan pakai rumus ini."
+            ]
+          },
+          {
+            "text": "Upload konten ke Ads Manager sebagai 5 ads",
+            "panduan": [
+              "Kenalan istilah: 'Ads Manager' = DASBOR resmi tempat memasang iklan Facebook & Instagram (ibarat 'kasir' tempat kamu bayar dan atur iklan). 'CTWA' = Click to WhatsApp = jenis iklan yang kalau tombolnya diklik, langsung membuka CHAT WHATSAPP ke nomor kamu. Ini senjata utama kita.",
+              "Buka Chrome (ikon bulat warna-warni), ketuk address bar, ketik: adsmanager.facebook.com lalu Enter. Login dengan akun Facebook yang sudah punya akses iklan.",
+              "Tanda berhasil masuk: muncul halaman dengan tabel berisi kolom Campaign, Budget, Hasil. Itu dasbor iklanmu.",
+              "Ketuk tombol hijau '+ Buat'/'Create' untuk bikin campaign baru.",
+              "Pilih objective (tujuan iklan): pilih 'Engagement'/'Interaksi' — lalu di level bawahnya pilih tipe 'WhatsApp'. (Di tampilan baru kadang tertulis 'Pesan WhatsApp'.) Ini yang bikin tombol iklanmu nyambung ke WA.",
+              "Beri nama campaign yang jelas, contoh ketik di kolom nama: 'CTWA - Serum X - Test 5 Ads'. Ketuk Lanjut.",
+              "Di halaman Ad Set: atur budget harian (mulai kecil dulu, misal Rp50.000/hari), pilih lokasi Indonesia, umur dan gender sesuai targetmu. Sambungkan nomor WhatsApp: pilih halaman Facebook-mu, lalu ketuk 'Tambahkan nomor WhatsApp' dan ikuti verifikasi kodenya.",
+              "Ketuk Lanjut ke halaman Ads (level iklan). Di sinilah kontenmu diupload.",
+              "Iklan 1: ketuk 'Tambahkan Media' → 'Tambahkan Video' → pilih video demo produk dari Galeri. Tunggu sampai 100% terupload. Tempel Caption versi 1 di kolom 'Primary Text' (teks utama).",
+              "Iklan 2-5: ketuk 'Duplikat' atau buat ad baru di dalam ad set yang sama, ganti medianya: iklan 2 = video before-after, iklan 3 = video testimoni, iklan 4 = foto produk, iklan 5 = video promo. Tempel caption versi 2 dan 3 bergantian di Primary Text-nya.",
+              "Cek tiap iklan: tombol CTA-nya pilih 'Kirim Pesan WhatsApp'/'Send WhatsApp Message'. Pastikan nomor WA yang tampil BENAR (nomor admin jualanmu, bukan nomor lain).",
+              "Review ringkasan di kanan layar: 1 campaign, 1 ad set, 5 ads, budget harian sesuai. Kalau ada peringatan merah (misal teks kepanjangan), perbaiki dulu.",
+              "Ketuk tombol hijau 'Publish'/'Terbitkan'. Tanda berhasil: status berubah jadi 'Dalam Peninjauan'/'In Review' (lalu jadi 'Aktif'). SELAMAT — 5 iklanmu sudah tayang! Jangan diutak-atik 2-3 hari pertama (fase belajar algoritma)."
+            ]
+          },
+          {
+            "text": "Cek preview iklan di HP",
+            "panduan": [
+              "'Preview' = tampilan percobaan: melihat iklanmu persis seperti yang dilihat calon pembeli di HP mereka, SEBELUM uang iklan jalan.",
+              "Di Ads Manager, buka salah satu dari 5 ads yang baru dibuat (ketuk namanya).",
+              "Cari tombol 'Preview'/'Pratinjau' (ikon mata) — biasanya di panel kanan. Ketuk.",
+              "Pilih 'Kirim pratinjau ke ponsel'. Kirim ke aplikasi Facebook di HP-mu. Tanda berhasil: muncul notifikasi di HP bertuliskan 'Pratinjau iklan'.",
+              "Buka notifikasi itu di HP — iklanmu tampil persis seperti postingan biasa di beranda.",
+              "Cek 4 hal dengan mata pembeli: (1) video BISA DIPUTAR dan suaranya keluar, (2) teks hook 3 detik pertama KELIHATAN jelas, (3) caption tidak kepotong aneh, (4) tombol 'Kirim Pesan'/WhatsApp MUNCUL.",
+              "KETUK tombol WhatsApp-nya. Tanda berhasil SEMPURNA: aplikasi WhatsApp terbuka dengan chat baru ke nomor adminmu. Kalau yang terbuka malah nomor lain = balik ke Ads Manager, perbaiki nomornya.",
+              "Ulangi cek preview untuk ke-5 ads (cukup 1 menit per iklan). Tandai di Notes mana yang sudah dicek: 'Iklan 1 OK, iklan 2 OK...'",
+              "Kalau ada yang rusak (video tidak jalan, tombol salah nomor): perbaiki di Ads Manager, lalu preview ulang. JANGAN biarkan iklan cacat jalan pakai uang.",
+              "Kalau semua OK: screenshot tiap preview sebagai arsip, simpan di folder 'Iklan Tayang'. Mulai hari ini, pantau chat WA yang masuk — itu tanda iklanmu BEKERJA."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tpl-closing",
+    "nama": "💬 Closing WhatsApp Sampai Deal",
+    "deskripsi": "Ubah chat masuk jadi order dengan teknik closing yang sudah terbukti.",
+    "levels": [
+      {
+        "nama": "Level 1 — Setup WA Business",
+        "deskripsi": "Siapkan akun WA jualan",
+        "tasks": [
+          {
+            "text": "Install & setting profil WhatsApp Business",
+            "panduan": [
+              "Buka Play Store di HP (ikon segitiga warna-warni: biru, hijau, kuning, merah).",
+              "Ketuk kolom pencarian yang ada di bagian atas layar.",
+              "Ketik \"WhatsApp Business\" lalu ketuk tombol cari (ikon kaca pembesar).",
+              "Cari aplikasi bernama \"WhatsApp Business\" dari WhatsApp LLC — ikonnya hijau seperti WA biasa tapi ada tulisan Business di bawahnya.",
+              "Ketuk tombol \"Install\", lalu tunggu sampai selesai terpasang.",
+              "Buka aplikasinya, ketuk \"Setuju dan Lanjutkan\" pada halaman awal.",
+              "Masukkan nomor HP khusus jualan (kalau bisa bedakan dari nomor pribadi), lalu ketuk \"Berikutnya\".",
+              "Cek SMS yang masuk berisi 6 digit kode verifikasi, lalu ketik kodenya di kolom yang tersedia.",
+              "Isi kolom \"Nama bisnis\" dengan nama tokomu, misalnya \"Ridgi Store\".",
+              "Ketuk kolom \"Kategori\" lalu pilih kategori yang paling mirip jualanmu, misalnya \"Belanja & Ritel\".",
+              "Ketuk ikon kamera untuk pasang foto profil, lalu pilih logo tokomu dari galeri HP.",
+              "Ketuk \"Berikutnya\". Tanda berhasil: kamu masuk ke halaman chat WA Business, dan nama bisnismu tampil di profil."
+            ]
+          },
+          {
+            "text": "Bikin katalog produk di WA Business",
+            "panduan": [
+              "Pahami dulu istilahnya: katalog itu etalase foto produk di dalam WA — calon pembeli bisa lihat daftar barang + harga tanpa kamu kirim satu-satu.",
+              "Buka WhatsApp Business, ketuk ikon titik tiga (⋮) di kanan atas layar.",
+              "Ketuk menu \"Fitur bisnis\" (kadang tertulis \"Business tools\" / \"Peralatan bisnis\").",
+              "Ketuk menu \"Katalog\".",
+              "Ketuk tombol \"Tambah item baru\" (ikon +).",
+              "Ketuk \"Tambah gambar\", lalu pilih foto produk terbaik dari galeri HP.",
+              "Ketik nama produk di kolom \"Nama item\", misalnya \"Tas Selempang Kulit Premium\".",
+              "Ketik harga di kolom \"Harga\", misalnya \"99000\" (WA otomatis menampilkannya sebagai Rp).",
+              "Ketik deskripsi singkat di kolom \"Deskripsi\": bahan, ukuran, dan warna yang tersedia.",
+              "Kolom \"Tautan\" diisi hanya kalau kamu punya link Shopee/Tokopedia; kalau tidak ada, kosongkan saja.",
+              "Ketuk \"Simpan\" di kanan atas, lalu ulangi langkah 5–11 untuk produk lainnya.",
+              "Tanda berhasil: di menu Katalog terlihat daftar produkmu lengkap dengan foto dan harga, dan calon pembeli yang membuka profil WA-mu melihat tombol \"Lihat katalog\"."
+            ]
+          },
+          {
+            "text": "Setting pesan sapaan otomatis (greeting message)",
+            "panduan": [
+              "Pahami dulu istilahnya: greeting message (pesan sapaan) adalah pesan yang otomatis terkirim ke orang yang baru pertama kali chat kamu — jadi walau kamu sedang sibuk, dia langsung disambut.",
+              "Buka WA Business, ketuk ikon titik tiga (⋮) di kanan atas, lalu ketuk \"Fitur bisnis\".",
+              "Ketuk menu \"Pesan sapaan\" (Greeting message).",
+              "Geser tombol di bagian atas ke kanan sampai berwarna hijau (artinya Aktif).",
+              "Ketuk kolom pesan, hapus isi contohnya.",
+              "Ketik pesan sapaanmu sendiri, contoh: \"Halo kak 👋 Terima kasih sudah menghubungi Ridgi Store! Mau tanya-tanya produk dulu boleh banget. Saya bantu carikan yang paling cocok ya 😊\"",
+              "Ketuk \"Penerima\", lalu pilih \"Semua orang yang tidak ada di kontak\" supaya yang baru chat langsung disapa otomatis.",
+              "Atur jadwal pengiriman: pilih \"Selalu kirim\" kalau tokomu buka terus, atau \"Jadwal khusus\" kalau ada jam tutup.",
+              "Ketuk \"Simpan\" di kanan atas.",
+              "Tes: minta teman yang nomornya BELUM kamu simpan untuk chat ke nomor WA bisnismu.",
+              "Tanda berhasil: temanmu langsung menerima pesan sapaan tadi begitu chat pertamanya terkirim. Catatan: pesan ini hanya terkirim sekali per orang — kalau dia chat lagi dalam 14 hari, tidak dikirim ulang."
+            ]
+          },
+          {
+            "text": "Setting label chat (baru, follow up, deal)",
+            "panduan": [
+              "Pahami dulu istilahnya: label itu stiker warna untuk menandai chat — biar gampang bedakan mana calon pembeli baru, mana yang nunggu transfer, mana yang sudah deal.",
+              "Buka WA Business, ketuk ikon titik tiga (⋮) di kanan atas, lalu ketuk \"Fitur bisnis\".",
+              "Ketuk menu \"Label\". Kamu akan melihat label bawaan seperti \"Pelanggan baru\" dan \"Pembayaran tertunda\".",
+              "Untuk bikin label sendiri, ketuk ikon + atau tombol \"Label baru\".",
+              "Ketik nama label: \"BARU MASUK\" (untuk chat orang yang baru tanya-tanya), pilih warna hijau, lalu ketuk \"Simpan\".",
+              "Ulangi langkah 4–5 untuk label \"FOLLOW UP H+1\" dengan warna kuning.",
+              "Ulangi lagi untuk label \"DEAL / SUDAH TRANSFER\" dengan warna biru.",
+              "Ulangi lagi untuk label \"PELANGGAN TETAP\" dengan warna ungu.",
+              "Cara menandai chat: tahan chat yang mau ditandai sampai terpilih (muncul tanda centang).",
+              "Ketuk ikon label (ikon seperti stiker/tag) di bagian atas, centang label yang sesuai, lalu ketuk \"Simpan\".",
+              "Untuk melihat chat per label: di halaman chat utama, ketuk kolom pencarian di atas, lalu pilih label yang mau ditampilkan.",
+              "Tanda berhasil: tiap chat punya warna label sendiri, dan kamu bisa memfilter misalnya \"tampilkan hanya yang FOLLOW UP H+1\"."
+            ]
+          },
+          {
+            "text": "Bikin balasan cepat (quick reply) untuk pertanyaan yang sering ditanyakan",
+            "panduan": [
+              "Pahami dulu istilahnya: balasan cepat (quick reply) adalah jawaban yang sudah kamu simpan — cukup ketik \"/\" + kata kunci, teks panjangnya langsung muncul. Hemat waktu banget.",
+              "Buka WA Business, ketuk ikon titik tiga (⋮) di kanan atas, lalu ketuk \"Fitur bisnis\".",
+              "Ketuk menu \"Balasan cepat\".",
+              "Ketuk ikon + untuk menambah yang baru.",
+              "Ketik jawaban panjang di kolom \"Pesan\", contoh untuk pertanyaan ongkir: \"Untuk ongkir kak, bisa saya cek dulu. Boleh minta kecamatan & kotanya? Nanti saya hitungkan yang paling murah 😊\"",
+              "Ketik kata kunci singkat di kolom \"Pintasan\", misalnya \"ongkir\" (tanpa spasi), lalu ketuk \"Simpan\".",
+              "Buat satu lagi untuk pertanyaan \"apakah ready?\": pesan \"Ready kak, stok aman. Mau warna apa? Saya pilihkan yang bagus 😊\", pintasan \"ready\".",
+              "Buat satu lagi untuk \"cara order\": pesan \"Cara order gampang kak: cukup kirim nama lengkap + alamat lengkap + nomor HP, nanti saya totalkan + ongkirnya ya 🙏\", pintasan \"order\".",
+              "Cara memakai: buka chat pembeli, ketik \"/\" di kolom ketik pesan — daftar balasan cepatmu akan muncul.",
+              "Pilih salah satunya (misalnya \"ongkir\"), teks panjangnya otomatis masuk ke kolom chat. Baca ulang, sesuaikan kalau perlu, lalu kirim.",
+              "Tanda berhasil: kamu bisa menjawab pertanyaan yang itu-itu saja dalam 10 detik tanpa mengetik ulang dari nol."
+            ]
+          }
+        ]
+      },
+      {
+        "nama": "Level 2 — Teknik Closing",
+        "deskripsi": "Ubah chat jadi order",
+        "tasks": [
+          {
+            "text": "Balas chat kurang dari 5 menit dengan sapaan ramah",
+            "panduan": [
+              "Pahami dulu aturannya: pembeli online itu tidak sabaran — kalau chat tidak dibalas 5 menit, biasanya dia pindah ke toko lain.",
+              "Nyalakan notifikasi WA Business: buka Pengaturan HP → Aplikasi → WhatsApp Business → Notifikasi → aktifkan semuanya.",
+              "Begitu ada bunyi chat masuk, buka langsung — jangan tunda.",
+              "Baca dulu chatnya sampai selesai sebelum membalas, jangan asal jawab.",
+              "Ketik sapaan + nama kalau namanya terlihat: \"Halo kak Rina! 👋 Terima kasih sudah mampir ke Ridgi Store 😊\" lalu kirim.",
+              "Lanjutkan dengan kalimat pembuka yang ramah: \"Mau tanya-tanya dulu boleh banget kak, saya bantu sampai dapat yang paling cocok 🙏\" lalu kirim.",
+              "Kalau chat masuk di luar jam kerja, pakai away message (pesan otomatis saat kamu offline): buka Fitur bisnis → Pesan di luar jam kerja → aktifkan, isi contoh: \"Halo kak, terima kasih sudah chat! Saat ini kami sedang offline, buka lagi jam 08.00 pagi. Chat kakak pasti kami balas duluan 🙏\"",
+              "Jangan langsung kirim harga di pesan pertama — sapa dulu, bikin nyaman dulu.",
+              "Pakai 1 emoji saja per pesan biar hangat tapi tetap terlihat profesional.",
+              "Kalau pembeli hanya kirim \"P\" atau \"Halo\", balas: \"Halo juga kak 😊 Ada yang bisa saya bantu? Cari produk yang seperti apa?\" lalu kirim.",
+              "Catat jam berapa chat masuk untuk mengukur kecepatan balasanmu sendiri.",
+              "Tanda berhasil: pembeli membalas sapaanmu dan mulai cerita kebutuhannya — bukan langsung hilang."
+            ]
+          },
+          {
+            "text": "Gali kebutuhan dengan 3 pertanyaan",
+            "panduan": [
+              "Pahami dulu prinsipnya: penjual yang bagus itu seperti dokter — tanya dulu keluhannya, baru kasih obatnya. Jangan langsung sodorkan produk.",
+              "Setelah sapaan dibalas, JANGAN langsung tawarkan produk — mulai dengan pertanyaan pertama.",
+              "Pertanyaan 1 (masalahnya apa): ketik \"Boleh tahu kak, barangnya mau dipakai untuk apa / untuk siapa ya?\" lalu kirim. Tunggu jawabannya dan baca baik-baik.",
+              "Pertanyaan 2 (maunya yang seperti apa): ketik \"Kakak lebih suka yang seperti apa? Misalnya warna, ukuran, atau bahannya?\" lalu kirim. Tunggu jawabannya lagi.",
+              "Pertanyaan 3 (budget): ketik dengan sopan \"Kira-kira budgetnya di kisaran berapa kak? Biar saya carikan yang pas, tidak kemahalan 😊\" lalu kirim.",
+              "Dari 3 jawaban itu, pilih 1–2 produk dari katalogmu yang PALING cocok dengan kebutuhannya (bukan yang paling mahal).",
+              "Kirim foto produknya dari katalog: di ruang chat ketuk ikon penjepit kertas (📎) → pilih \"Katalog\" → pilih produknya → kirim.",
+              "Tambahkan kalimat pengantar: \"Nah, kalau dari kebutuhan kakak tadi, yang paling cocok ini kak 👆 [nama produk]. Bahannya [bahan], ukurannya [ukuran].\" lalu kirim.",
+              "Tanyakan pendapatnya: \"Gimana kak, cocok? Atau mau saya carikan model lain?\" lalu kirim.",
+              "Kalau dia jawab soal harga (\"mahal\"), jangan panik — itu wajar, lanjutkan ke teknik killing offer di task berikutnya.",
+              "Jangan kirim lebih dari 2 pilihan produk sekaligus — terlalu banyak pilihan bikin pembeli bingung dan malah tidak jadi beli.",
+              "Tanda berhasil: pembeli menjawab ketiga pertanyaanmu dan mulai membahas produk yang spesifik — itu tanda dia serius, bukan cuma iseng tanya."
+            ]
+          },
+          {
+            "text": "Atasi keberatan harga dengan teknik killing offer",
+            "panduan": [
+              "Pahami dulu istilahnya: killing offer adalah penawaran yang bikin pembeli sulit menolak — rumusnya: BONUS + GARANSI + BATAS WAKTU. Orang jarang menolak karena harga, biasanya karena belum yakin barangnya worth it.",
+              "Saat pembeli bilang \"mahal\", jangan langsung kasih diskon — tanya dulu akar masalahnya: ketik \"Siap kak, boleh tahu yang dirasa kemahalan yang mana? Harganya atau ongkirnya?\" lalu kirim.",
+              "Kalau masalahnya HARGA PRODUK, susun killing offer-mu: siapkan bonus kecil (misal pouch, gantungan kunci, atau voucher).",
+              "Ketik penawaran bonus: \"Gimana kalau gini kak, khusus hari ini saya kasih BONUS [nama bonus] untuk setiap pembelian 🎁\" lalu kirim.",
+              "Lanjut tawarkan garansi: \"Terus kakak juga dapat GARANSI: kalau barang cacat atau tidak sesuai foto, uang kembali 100%. Jadi kakak tidak ada ruginya 😊\" lalu kirim.",
+              "Tambahkan urgensi (batas waktu): \"Tapi bonusnya cuma berlaku sampai jam 21.00 malam ini ya kak, karena stok bonusnya terbatas 🙏\" lalu kirim.",
+              "Kalau masalahnya ONGKIR, tawarkan solusi: \"Ongkirnya saya bantu potong setengah kak, atau saya carikan ekspedisi termurah ke [kota pembeli]\" lalu kirim.",
+              "Aturan penting: jangan potong harga pokok lebih dari 10% — yang dikasih adalah NILAI TAMBAH (bonus/garansi), bukan banting harga.",
+              "Setelah kirim killing offer, DIAM dan tunggu — jangan kirim chat beruntun. Beri dia waktu berpikir 10–15 menit.",
+              "Kalau 15 menit tidak dibalas, kirim SATU pesan ringan: \"Gimana kak, bonusnya mau saya amankan dulu? 😊\" lalu kirim.",
+              "Kalau dia setuju, langsung kunci: \"Siap! Saya catat ya kak. Boleh minta nama lengkap + alamat lengkapnya untuk pengiriman? 🙏\" lalu kirim.",
+              "Kalau dia tetap menolak, jangan memaksa — balas: \"Siap kak, tidak apa-apa 😊 Kapan-kapan kalau butuh, chat saya lagi ya. Saya simpan dulu nomor kakak 🙏\" (jaga hubungan baik, dia bisa kembali lain waktu).",
+              "Tanda berhasil: pembeli yang tadinya bilang \"mahal\" berubah bilang \"oke\" / \"deal\" / mulai mengirim alamatnya."
+            ]
+          },
+          {
+            "text": "Closing: minta data nama-alamat untuk pengiriman",
+            "panduan": [
+              "Pahami dulu istilahnya: closing artinya mengarahkan chat sampai pembeli bilang \"deal/beli\". Tanda dia SIAP closing: dia bertanya \"cara bayarnya gimana?\", \"kirim ke [kota] berapa lama?\", atau bilang \"oke\".",
+              "Jangan tanya \"jadi beli nggak?\" — langsung arahkan dengan kalimat pasti: ketik \"Siap kak! Saya bantu proses ordernya sekarang ya 😊\" lalu kirim.",
+              "Minta data dengan format yang jelas biar tidak bolak-balik tanya: ketik \"Boleh minta datanya kak, formatnya gini ya:\" lalu kirim.",
+              "Kirim formatnya sebagai satu pesan: \"Nama lengkap:\\nNo. HP:\\nAlamat lengkap (jalan, RT/RW, kelurahan, kecamatan):\\nKota:\\nKode pos:\\nCatatan (opsional):\"",
+              "Tunggu sampai datanya lengkap — kalau ada yang kurang, tanya spesifik, misalnya: \"Kode posnya berapa kak?\"",
+              "Setelah data lengkap, hitung total belanja: harga produk + ongkir (cek ongkir lewat aplikasi ekspedisi atau tanya agen Mengantar).",
+              "Kirim rincian dengan rapi: \"Ini totalnya kak 🙏\\n[Nama produk] Rp99.000\\nOngkir ke [kota] Rp15.000\\nTOTAL Rp114.000\" lalu kirim.",
+              "Tawarkan metode bayar: \"Kakak mau bayar via transfer (BCA/BRI/DANA) atau COD (bayar tunai di tempat saat barang datang)?\" lalu kirim. COD = Cash on Delivery, bayar saat paket sampai.",
+              "Kalau pilih TRANSFER: kirim nomor rekening + nama pemiliknya, contoh: \"BCA 1234567890 a.n. Ridgi Store. Setelah transfer, kirim bukti screenshotnya ke sini ya kak 🙏\"",
+              "Kalau pilih COD: jelaskan \"Siap, bisa COD kak. Nanti bayarnya tunai ke kurir saat barang sampai ya. Pastikan ada orang di rumah 🙏\"",
+              "Beri batas waktu pembayaran transfer: \"Mohon transfernya maksimal 1x24 jam ya kak, biar ordernya langsung saya proses hari ini juga 😊\" lalu kirim.",
+              "Setelah bukti transfer diterima atau COD disepakati, konfirmasi: \"Order kakak SUDAH MASUK ✅ Besok langsung saya kirim. Nanti nomor resinya saya kabari di sini ya 🙏\" (resi = nomor pelacakan paket).",
+              "Tandai chat ini dengan label \"DEAL / SUDAH TRANSFER\" (tahan chat → ikon label → centang → simpan).",
+              "Tanda berhasil: kamu memegang data lengkap + kepastian pembayaran, dan chat sudah berlabel DEAL."
+            ]
+          }
+        ]
+      },
+      {
+        "nama": "Level 3 — Follow Up",
+        "deskripsi": "Kejar yang belum beli",
+        "tasks": [
+          {
+            "text": "SOP follow up H+1 untuk yang belum transfer",
+            "panduan": [
+              "Pahami dulu istilahnya: follow up artinya menghubungi lagi orang yang belum jadi beli / belum transfer. H+1 artinya satu hari setelah dia janji transfer tapi belum ada kabar.",
+              "Setiap sore, buka filter label \"FOLLOW UP H+1\": di halaman chat ketuk kolom pencarian → pilih label \"FOLLOW UP H+1\" → lihat siapa yang kemarin janji tapi belum kirim bukti transfer.",
+              "Jangan kirim pesan yang menuduh seperti \"kok belum transfer?\" — pakai nada membantu.",
+              "Buka chatnya, ketik: \"Halo kak [nama] 😊 Saya cek, order [nama produk] kakak kemarin belum masuk pembayarannya. Barangnya masih saya simpan lho.\" lalu kirim.",
+              "Lanjut: \"Kira-kira ada kendala apa kak? Barangkali saya bisa bantu 🙏\" lalu kirim. Tunggu balasan. Kendala umum: lupa, belum sempat ke ATM, atau masih ragu.",
+              "Kalau dia LUPA: balas \"Wajar kak 😄 Ini nomor rekeningnya saya kirim ulang ya: [bank + nomor]. Setelah transfer kabari saya 🙏\"",
+              "Kalau dia BELUM SEMPAT ke ATM/bank: tawarkan kemudahan \"Bisa juga via DANA/OVO kak kalau lebih gampang, nomornya [nomor].\"",
+              "Kalau dia masih RAGU: yakinkan ulang dengan garansi \"Tenang kak, tetap ada garansi uang kembali kalau barang tidak sesuai. Kakak tidak berisiko 😊\"",
+              "Beri batas yang lembut: \"Saya tahan barangnya sampai besok sore ya kak, habis itu saya lepas ke pembeli lain 🙏\" lalu kirim.",
+              "Kalau dia akhirnya transfer → pindahkan label chat ke \"DEAL / SUDAH TRANSFER\".",
+              "Kalau tidak dibalas sampai 2 hari → lanjutkan ke SOP H+3 di task berikutnya.",
+              "Tanda berhasil: sebagian yang di-follow up H+1 akhirnya transfer — normalnya 20–40% kembali."
+            ]
+          },
+          {
+            "text": "SOP follow up H+3 dengan bonus tambahan",
+            "panduan": [
+              "Pahami dulu: H+3 artinya tiga hari setelah janji, dan ini usaha TERAKHIR sebelum kamu melepasnya. Setelah ini, jangan ganggu dia lagi.",
+              "Filter label \"FOLLOW UP H+1\" — cari yang sudah 3 hari tidak ada kabar sejak follow up pertama.",
+              "Ini \"tembakan terakhir\": tawarkan sesuatu yang BELUM pernah ditawarkan sebelumnya.",
+              "Ketik: \"Halo kak [nama] 😊 Saya Ridgi dari [nama toko]. Order [produk] kakak 3 hari lalu belum dilanjutkan, jadi saya mau kasih penawaran terakhir nih 🎁\" lalu kirim.",
+              "Tawarkan bonus dadakan: \"Kalau kakak jadi transfer HARI INI, saya tambahkan GRATIS [bonus: gantungan kunci / potongan ongkir 50% / voucher Rp10rb belanja berikutnya].\" lalu kirim.",
+              "Tambahkan urgensi yang nyata: \"Stok [produk] tinggal [jumlah] pcs kak, dan ada 2 orang lain yang juga tanya-tanya. Saya dahulukan kakak sampai jam 17.00 sore ini 🙏\" lalu kirim.",
+              "Tunggu sampai sore. Jangan spam — cukup 2 pesan di atas saja.",
+              "Kalau dia DEAL → pindahkan label ke \"DEAL / SUDAH TRANSFER\", dan bonusnya BENAR-BENAR dikirim bersama paketnya.",
+              "Kalau dia menolak halus (\"nanti aja\"): balas \"Siap kak, santai saja 😊 Kapan-kapan butuh, chat saya lagi ya. Bonusnya hangus tapi harga tetap sama kok 🙏\"",
+              "Kalau TIDAK DIBALAS sama sekali: ganti labelnya menjadi \"TIDAK JADI / DINGIN\" (bikin label baru kalau belum ada).",
+              "Aturan keras: jangan pernah kirim follow up keempat ke orang yang sama — itu sudah masuk spam dan merusak nama tokomu. Tanda berhasil: chat yang dingin berkurang, label-labelmu rapi, dan ada tambahan closing dari bonus H+3."
+            ]
+          },
+          {
+            "text": "Kirim broadcast promo ke label pelanggan",
+            "panduan": [
+              "Pahami dulu istilahnya: broadcast (siaran) adalah kirim 1 pesan ke banyak nomor sekaligus, tapi diterimanya sebagai chat pribadi — BUKAN grup. Syarat penting: nomor kamu HARUS tersimpan di HP penerima, kalau tidak pesannya tidak akan sampai.",
+              "Makanya biasakan minta pelanggan menyimpan nomormu: \"Kak, simpan nomor saya ya biar info promonya masuk 🙏\"",
+              "Buka WA Business → di halaman chat ketuk ikon titik tiga (⋮) → pilih \"Siaran baru\" (New broadcast).",
+              "Pilih penerima: centang kontak berlabel \"PELANGGAN TETAP\" dan \"DEAL / SUDAH TRANSFER\". Jangan campur yang berlabel \"TIDAK JADI\".",
+              "Batasi maksimal 50–100 orang per broadcast biar tidak dicurigai sebagai spam oleh WhatsApp.",
+              "Susun pesan promo dengan rumus: sapaan + info promo + batas waktu + ajakan balas.",
+              "Ketik bagian pertama: \"Halo kak 😊 Kabar gembira dari [nama toko]! PROMO AKHIR BULAN: semua [kategori produk] DISKON 15% + GRATIS ONGKIR 🎉\" (jangan kirim dulu).",
+              "Lanjut ketik di pesan yang sama: \"Berlaku cuma 3 hari: [tanggal mulai] sampai [tanggal selesai]. Stok terbatas ya kak 🙏\"",
+              "Tutup dengan ajakan: \"Mau saya amankan dulu stoknya? Balas 'MAU' ya kak 😊\"",
+              "Baca ulang pesannya — pastikan ada nilai promonya yang jelas, ada batas waktu, dan ada ajakan untuk membalas.",
+              "Kirim. Pesan akan masuk ke tiap orang sebagai chat pribadi darimu.",
+              "Siap-siap balas cepat: orang yang membalas \"MAU\" langsung layani seperti closing biasa (balas kurang dari 5 menit).",
+              "Tanda berhasil: ada yang membalas dan terjadi order baru — dan TIDAK ada yang memblokir nomormu. Patokan wajar: broadcast promo maksimal 2x sebulan."
+            ]
+          },
+          {
+            "text": "Minta testimoni setelah barang diterima",
+            "panduan": [
+              "Pahami dulu istilahnya: testimoni adalah ulasan / kesan pembeli tentang produk dan pelayananmu. Ini \"senjata\" promosi paling ampuh karena calon pembeli lebih percaya kata pembeli lain daripada kata penjual.",
+              "3–5 hari setelah resi terkirim (perkiraan barang sampai), buka chat pembeli berlabel \"DEAL / SUDAH TRANSFER\".",
+              "Ketik: \"Halo kak [nama] 😊 Paketnya sudah sampai dengan selamat? Semoga suka ya 🙏\" lalu kirim. Tunggu konfirmasi barang diterima.",
+              "Kalau ada KOMPLAIN (barang cacat / salah kirim): tangani dulu — minta foto, tawarkan ganti barang atau refund sesuai garansi. Jangan minta testimoni sebelum masalahnya selesai.",
+              "Kalau pembeli bilang PUAS, minta testimoni: \"Senang dengarnya kak 😊 Boleh minta tolong 1 hal? Tulis kesan singkat tentang produk & pelayanan kami, 1–2 kalimat saja 🙏\" lalu kirim.",
+              "Permudah dia dengan contoh: \"Contohnya gini kak: 'Barangnya bagus, pengiriman cepat, seller ramah 👍'\"",
+              "Kalau dia mengirim testimoni teks → screenshot dan simpan di album HP khusus bernama \"Testimoni\".",
+              "Kalau dia malas menulis → tawarkan alternatif: \"Atau kakak kirim foto produknya sedang dipakai saja juga boleh 😊\" (foto asli = testimoni visual yang kuat).",
+              "Beri imbalan kecil biar dia rajin: \"Sebagai terima kasih, kakak dapat VOUCHER Rp10.000 untuk belanja berikutnya 🎁\"",
+              "Pajang testimoni terbaik di: Status WA, kolom deskripsi katalog, dan media sosial tokomu.",
+              "Tanda berhasil: kamu mengumpulkan 10+ testimoni dalam sebulan — pajang terus, calon pembeli baru jadi lebih percaya."
+            ]
+          },
+          {
+            "text": "Bangun database pelanggan dari chat yang sudah deal",
+            "panduan": [
+              "Pahami dulu: database pelanggan = daftar pembeli yang rapi (nama, nomor, apa yang dibeli, kapan). Pelanggan lama 5x lebih mudah closing daripada cari pembeli baru — tapi cuma kalau datanya tercatat.",
+              "Buka Google Sheets di HP (ikon spreadsheet hijau) atau siapkan buku catatan khusus.",
+              "Buat kolom: Nama | No. WA | Produk dibeli | Tanggal beli | Kota | Catatan.",
+              "Setiap ada chat berlabel \"DEAL / SUDAH TRANSFER\", pindahkan datanya ke tabel itu HARI ITU JUGA — jangan ditunda sampai lupa.",
+              "Contoh isi satu baris: \"Rina | 0812xxxx | Tas Selempang | 19-10-2026 | Mataram | suka warna hitam\".",
+              "Sebulan sekali, buka database dan cari pelanggan yang belanjanya sudah lebih dari 30 hari lalu.",
+              "Kirim pesan personal (bukan broadcast) ke mereka: \"Halo kak Rina 😊 Apa kabar? Tas selempangnya masih awet kan? Kami ada model baru nih, siapa tahu kakak suka 🙏\" + kirim foto model barunya.",
+              "Catat di kolom Catatan setiap kali kamu menghubunginya, contoh: \"dihubungi 20-11, tertarik model baru\".",
+              "Jangan campur database pelanggan dengan nomor yang belum pernah beli — perlakukan sebagai dua daftar yang berbeda.",
+              "Tanda berhasil: tiap bulan ada order yang datang dari pelanggan LAMA tanpa kamu harus pasang iklan baru."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tpl-scale",
+    "nama": "📈 Scale Up: Dari Testing ke Profit Besar",
+    "deskripsi": "Sistematis naikkan budget iklan yang sudah profit tanpa merusak performa. Khusus untuk kamu yang iklannya sudah jalan dan mau naik level.",
+    "levels": [
+      {
+        "nama": "Level 1 — Baca Data",
+        "deskripsi": "Kenali dulu angka-angkanya sebelum berani naikkan budget. Iklan yang tidak dibaca datanya itu judi.",
+        "tasks": [
+          {
+            "text": "Buka Ads Manager dan pilih akun iklan yang benar",
+            "panduan": [
+              "Buka aplikasi Chrome di HP kamu (ikon bulat warna-warni merah-kuning-hijau-biru)",
+              "Ketuk kolom address bar (kotak panjang di bagian atas layar), ketik business.facebook.com lalu tekan Enter atau ketuk tombol panah",
+              "Kalau diminta login, masukkan email dan password Facebook kamu, lalu ketuk tombol biru Masuk",
+              "Setelah masuk, kamu akan lihat halaman Business Manager. Ketuk ikon garis tiga di kiri atas untuk membuka menu",
+              "Di menu yang muncul, cari dan ketuk Ads Manager (ikon grafik batang). Ini adalah dasbor untuk mengatur semua iklan",
+              "Di kiri atas Ads Manager ada dropdown nama akun. Ketuk untuk memastikan kamu memilih akun iklan yang benar, bukan akun pribadi",
+              "Kamu akan melihat daftar campaign. Pastikan kolom-kolom seperti Hasil, Jangkauan, dan Tayangan terlihat di tabel",
+              "Kalau kolomnya belum lengkap, ketuk tombol Kolom di kanan atas tabel lalu pilih Sesuaikan kolom",
+              "Tanda berhasil: kamu bisa melihat daftar campaign iklanmu dengan angka-angka performa di setiap baris",
+              "Bookmark halaman ini di Chrome (ketuk ikon bintang di address bar) agar besok tinggal klik tanpa ketik ulang"
+            ]
+          },
+          {
+            "text": "Cek CTR Link Click — standar sehatnya 1%",
+            "panduan": [
+              "CTR adalah singkatan dari Click-Through Rate, artinya persentase orang yang mengklik iklanmu setelah melihatnya",
+              "Ini adalah ukuran seberapa menarik konten iklanmu — makin tinggi makin bagus",
+              "Buka Ads Manager seperti langkah sebelumnya (business.facebook.com, menu, Ads Manager)",
+              "Ketuk tombol Kolom di kanan atas tabel, lalu pilih Sesuaikan kolom",
+              "Di jendela yang muncul, cari CTR (tautan) atau CTR (Link Click-Through Rate) di daftar, centang kotaknya",
+              "Ketuk Terapkan. Sekarang kolom CTR muncul di tabel iklanmu",
+              "Ketuk tab Iklan (Ads) di atas tabel untuk melihat performa per iklan, bukan per campaign",
+              "Lihat angka CTR tiap iklan. Standar sehat: 1% atau lebih — artinya dari 100 orang yang lihat, minimal 1 yang klik",
+              "Kalau CTR di bawah 1%, masalahnya ada di konten iklan: gambar atau video kurang menarik, atau headline lemah",
+              "Catat CTR tiap iklan di buku catatan atau aplikasi catatan HP — data ini dipakai untuk perbandingan nanti",
+              "Tanda berhasil: kamu tahu CTR masing-masing iklan dan bisa tunjuk mana yang di atas atau di bawah 1%"
+            ]
+          },
+          {
+            "text": "Cek CPC — biaya per klik iklan",
+            "panduan": [
+              "CPC adalah Cost Per Click, artinya berapa rupiah yang kamu bayar untuk setiap 1 orang yang mengklik iklan",
+              "Makin murah CPC-nya, makin efisien iklanmu",
+              "Di Ads Manager, ketuk Kolom, lalu pilih Sesuaikan kolom seperti sebelumnya",
+              "Cari dan centang CPC (tautan) atau CPC (Link), lalu ketuk Terapkan",
+              "Lihat angka CPC tiap iklan di tab Iklan. Contoh: Rp2.000 artinya tiap ada orang klik, kamu bayar Rp2.000",
+              "Tidak ada standar baku karena tiap niche beda harga, tapi bandingkan antar iklanmu sendiri",
+              "Iklan dengan CPC paling murah biasanya paling efisien — itu kandidat untuk di-scale",
+              "Kalau CPC mahal (misal di atas Rp5.000 untuk produk murah), biasanya karena CTR rendah atau targeting terlalu sempit",
+              "Catat CPC tiap iklan di catatanmu",
+              "Tanda berhasil: kamu tahu CPC tiap iklan dan bisa bandingkan mana yang termurah"
+            ]
+          },
+          {
+            "text": "Cek cost per chat / cost per hasil",
+            "panduan": [
+              "Cost per hasil artinya berapa biaya iklan yang keluar untuk mendapatkan 1 hasil — misal 1 chat WhatsApp masuk atau 1 pembelian",
+              "Ini metrik paling penting untuk tahu iklanmu profit atau boncos",
+              "Di Ads Manager, ketuk Kolom lalu pilih Sesuaikan kolom",
+              "Cari Biaya per hasil atau Cost per Result, centang kotaknya, lalu ketuk Terapkan",
+              "Pastikan kolom Hasil (Results) juga tampil — ini menunjukkan jumlah chat atau pembelian yang didapat",
+              "Kamu juga bisa hitung manual: total belanja iklan dibagi jumlah hasil",
+              "Contoh: belanja Rp100.000 dapat 20 chat, maka cost per chat = Rp5.000",
+              "Bandingkan dengan margin produkmu. Contoh: margin Rp45.000, cost per chat Rp5.000, closing rate 20% (dari 5 chat jadi 1 beli) — maka biaya per pembelian = Rp25.000, masih profit Rp20.000",
+              "Catat angka cost per hasil tiap campaign",
+              "Tanda berhasil: kamu tahu berapa biaya untuk dapat 1 chat dan 1 pembeli"
+            ]
+          },
+          {
+            "text": "Hitung ROAS dan bandingkan dengan ROAS impas",
+            "panduan": [
+              "ROAS adalah Return on Ad Spend = total pendapatan dibagi total biaya iklan",
+              "Contoh: belanja iklan Rp100.000 menghasilkan penjualan Rp500.000, maka ROAS = 5",
+              "Di Ads Manager, tambahkan kolom ROAS via Kolom lalu Sesuaikan kolom (butuh Pixel terpasang untuk data otomatis yang akurat)",
+              "Kalau belum pasang Pixel, hitung manual: catat total omzet dari iklan (lihat catatan orderanmu), bagi dengan total belanja iklan di Ads Manager",
+              "Sekarang hitung ROAS impas (titik impas) dengan rumus: Harga Jual dibagi Margin per order",
+              "Contoh: harga Rp150.000, margin Rp50.000, maka ROAS impas = 3",
+              "Artinya: kalau ROAS aktualmu di atas 3, iklanmu profit. Kalau di bawah 3, berarti rugi",
+              "Buka tab Tools di aplikasi Ridgipack, pakai Kalkulator Laba-Rugi untuk hitung otomatis — tinggal isi harga, modal, dan budget",
+              "Catat ROAS aktual vs ROAS impas tiap campaign di jurnalmu",
+              "Tanda berhasil: kamu tahu ROAS-mu berapa dan bisa jawab apakah di atas atau di bawah titik impas"
+            ]
+          },
+          {
+            "text": "Diagnosis dengan Orthodox Matrix",
+            "panduan": [
+              "Orthodox Matrix adalah framework alias cara berpikir untuk membaca data iklan secara berurutan, dari atas ke bawah seperti corong",
+              "Urutan pemeriksaannya: CTR (apakah konten menarik?) lalu OCLP (apakah halaman cepat?) lalu Konversi (apakah offer menarik?)",
+              "Langkah pertama: cek CTR seperti task sebelumnya. Kalau di bawah 1%, perbaiki konten dulu — jangan scale dulu",
+              "Langkah kedua: cek OCLP. OCLP = Tayangan Halaman Landas dibagi Klik Tautan. Tambahkan kolom Tayangan Halaman Landas di Ads Manager",
+              "Hitung manual: misal 100 orang klik tapi cuma 70 yang sampai ke halaman, maka OCLP = 70%. Standar sehat 70% atau lebih",
+              "Kalau OCLP rendah (di bawah 70%), masalahnya di kecepatan loading halaman — kompres gambarnya atau ganti hosting yang lebih cepat",
+              "Langkah ketiga: cek tingkat konversi = jumlah pembelian dibagi jumlah pengunjung halaman. Standar sekitar 25% untuk produk impulse",
+              "Kalau konversi rendah padahal traffic bagus, masalahnya di offer (kurang menarik) atau harga kemahalan",
+              "Catat hasil diagnosis: masalahnya di konten, di halaman, atau di offer?",
+              "Aturan emas: JANGAN scale iklan yang belum lolos Orthodox Matrix — semua metrik harus sehat dulu baru naikkan budget",
+              "Tanda berhasil: kamu bisa menunjuk dengan tepat di mana letak masalah iklanmu"
+            ]
+          }
+        ]
+      },
+      {
+        "nama": "Level 2 — Optimasi",
+        "deskripsi": "Beresi dulu yang bocor sebelum scale. Scale iklan yang bocor itu seperti menuang air ke ember berlubang.",
+        "tasks": [
+          {
+            "text": "Matikan ad yang boncos",
+            "panduan": [
+              "Boncos artinya iklan yang rugi — biaya iklan lebih besar dari profit yang dihasilkan",
+              "Buka Ads Manager, ketuk tab Iklan (Ads) di atas tabel untuk melihat performa per iklan",
+              "Bandingkan cost per hasil tiap iklan dengan batas maksimal yang kamu tentukan",
+              "Contoh: kalau 1 pembeli maksimal boleh menghabiskan biaya Rp25.000, maka iklan dengan cost per hasil Rp40.000 = boncos",
+              "Beri waktu minimal 2-3 hari sebelum menilai — jangan matikan iklan yang baru jalan 1 hari karena datanya belum stabil",
+              "Untuk mematikan: di kolom paling kiri tiap baris iklan ada tombol toggle (saklar on/off). Ketuk sampai berubah jadi OFF (warna abu-abu)",
+              "Iklan yang dimatikan tidak lagi menghabiskan budget, tapi datanya tetap tersimpan dan bisa dinyalakan lagi",
+              "Sisakan minimal 2-3 iklan yang profit untuk tetap jalan — jangan matikan semuanya",
+              "Catat di jurnal: tanggal, nama iklan yang dimatikan, dan alasannya (misal: cost per hasil Rp40.000 melebihi batas)",
+              "Tanda berhasil: hanya iklan yang sehat (cost per hasil di bawah batas) yang masih jalan"
+            ]
+          },
+          {
+            "text": "Analisis angle mana yang menang dan mana yang lemah",
+            "panduan": [
+              "Angle adalah sudut pandang konten iklan — misal angle kepanasan saat macet vs angle testimoni pengguna vs angle promo",
+              "Di tab Iklan pada Ads Manager, perhatikan kolom CTR dan cost per hasil tiap iklan",
+              "Ketuk judul kolom CTR untuk mengurutkan dari tertinggi ke terendah",
+              "Iklan dengan CTR tertinggi = angle yang paling menarik bagi audience-mu",
+              "Iklan dengan CTR di bawah 1% = angle lemah, kandidat untuk dimatikan atau diperbaiki",
+              "Catat polanya di buku: angle seperti apa yang menang? Apakah angle masalah, testimoni, promo, atau unboxing?",
+              "Pola pemenang ini jadi senjata untuk bikin konten baru — jangan bikin angle yang sudah terbukti kalah",
+              "Bandingkan juga cost per hasil: angle dengan CTR tinggi biasanya cost per hasilnya lebih murah",
+              "Tanda berhasil: kamu bisa menyebutkan 1-2 angle pemenang beserta alasannya berdasarkan data"
+            ]
+          },
+          {
+            "text": "Buat 3-5 variasi konten dari angle pemenang",
+            "panduan": [
+              "Ambil angle pemenang dari task sebelumnya. Contoh: ternyata angle testimoni yang menang",
+              "Buka aplikasi catatan di HP, tulis 5 ide variasi dari angle tersebut",
+              "Contoh variasi angle testimoni: (1) testimoni video, (2) screenshot chat testimoni, (3) foto before-after, (4) video unboxing + testimoni, (5) testimoni + promo terbatas",
+              "Siapkan materi untuk tiap variasi: foto atau video bisa direkam sendiri pakai HP, atau minta ke supplier",
+              "Buka Canva (aplikasi atau ketik canva.com di Chrome) untuk edit gambar — tambahkan teks headline yang menarik perhatian",
+              "Untuk video, pakai CapCut (aplikasi gratis di Play Store) — potong bagian penting, tambah subtitle otomatis, tambah musik yang enak",
+              "Simpan semua file di satu folder di galeri HP dengan nama yang jelas, misal: angle-testimoni-1.mp4",
+              "Pastikan tiap variasi beda secara visual — jangan cuma ganti teks sedikit karena algoritma menganggapnya iklan yang sama",
+              "Tanda berhasil: ada 3-5 file konten baru yang siap dipasang sebagai iklan"
+            ]
+          },
+          {
+            "text": "A/B test: pasang variasi baru sebagai iklan",
+            "panduan": [
+              "A/B test artinya menguji 2 versi atau lebih secara bersamaan untuk tahu mana yang terbaik berdasarkan data",
+              "Buka Ads Manager, masuk ke campaign yang sedang jalan dan profit",
+              "Masuk ke level Adset, centang adset yang performanya bagus, lalu ketuk tombol Duplikat (ikon dua kotak bertumpuk)",
+              "Di adset hasil duplikat, hapus iklan lama dan buat iklan baru dengan konten variasi dari task sebelumnya",
+              "Beri nama iklan yang jelas sesuai variasinya, misal: Testimoni-Video-1, agar gampang dibedakan",
+              "Pastikan budget adset test tidak terlalu besar — cukup sama dengan budget harian normal untuk testing yang adil",
+              "Biarkan iklan test jalan 2-3 hari TANPA diutak-atik. Jangan sering edit karena algoritma butuh waktu belajar",
+              "Setelah 3 hari, bandingkan CTR dan cost per hasil iklan baru vs iklan lama",
+              "Iklan yang menang dipertahankan dan jadi kandidat scale, yang kalah dimatikan",
+              "Catat hasil test di jurnal: variasi mana menang, berapa CTR dan cost per hasilnya",
+              "Tanda berhasil: kamu punya data perbandingan yang jelas antara konten lama vs konten baru"
+            ]
+          }
+        ]
+      },
+      {
+        "nama": "Level 3 — Scale",
+        "deskripsi": "Saatnya injak gas. Tapi dengan rem yang pakem — naikkan budget secara sistematis, bukan asal besar.",
+        "tasks": [
+          {
+            "text": "Scale up: naikkan budget 20% bertahap",
+            "panduan": [
+              "Scale up artinya menaikkan budget pada adset atau campaign yang sudah ada dan sudah terbukti profit",
+              "Syarat wajib: iklan sudah jalan minimal 3 hari, ROAS di atas titik impas, dan sudah lolos Orthodox Matrix",
+              "Buka Ads Manager, ketuk tab Ad Set untuk melihat daftar adset",
+              "Ketuk nama adset yang mau di-scale untuk membuka detailnya",
+              "Ketuk tombol Edit (ikon pensil) di bagian pengaturan adset",
+              "Di bagian Budget (anggaran), naikkan MAKSIMAL 20% dari budget saat ini",
+              "Contoh: budget Rp100.000 menjadi Rp120.000. Jangan langsung dilipatgandakan!",
+              "Kenapa cuma 20%? Karena kenaikan drastis membuat algoritma kaget dan performa bisa anjlok (masuk fase learning ulang)",
+              "Ketuk Publikasikan atau Publish untuk menyimpan perubahan",
+              "Tunggu 2-3 hari, amati ROAS-nya. Kalau masih stabil atau naik, boleh naikkan lagi 20%",
+              "Ulangi siklus ini: naik 20%, tunggu 3 hari, cek ROAS, naik lagi",
+              "Berhenti menaikkan saat ROAS mulai turun mendekati titik impas — itu batas maksimal budget untuk adset tersebut",
+              "Catat setiap kenaikan budget beserta ROAS-nya di jurnal",
+              "Tanda berhasil: budget naik bertahap dan ROAS tetap di atas titik impas"
+            ]
+          },
+          {
+            "text": "Scale out: duplikasi adset pemenang",
+            "panduan": [
+              "Scale out artinya memperbanyak jalur iklan dengan menduplikasi adset yang menang, bukan menaikkan budget adset lama",
+              "Kelebihannya: adset lama tetap jalan stabil, adset baru jadi mesin tambahan",
+              "Di tab Ad Set pada Ads Manager, centang kotak di kiri adset pemenang",
+              "Ketuk tombol Duplikat di toolbar atas (ikon dua kotak bertumpuk)",
+              "Di jendela duplikat, pilih Adset baru dan tentukan jumlahnya — mulai dengan 1 sampai 2 dulu",
+              "Di adset hasil duplikat, kamu bisa variasikan: (a) naikkan budget 20-50% lebih tinggi dari aslinya, atau (b) ganti targeting ke audience yang sedikit berbeda",
+              "Contoh variasi targeting: adset asli target umur 25-34, duplikat target umur 35-44. Atau beda interest",
+              "Jangan duplikat dengan targeting yang SAMA PERSIS dan budget sama — itu cuma bikin iklanmu bersaing dengan dirinya sendiri (tumpang tindih)",
+              "Ketuk Publikasikan, lalu biarkan adset baru jalan 3 hari sebelum dinilai",
+              "Bandingkan performa adset duplikat vs aslinya setelah 3 hari",
+              "Tanda berhasil: ada adset baru yang jalan dengan performa mirip adset aslinya"
+            ]
+          },
+          {
+            "text": "Perluas audience dengan Lookalike dan Broad",
+            "panduan": [
+              "Kalau audience lama sudah jenuh (ditandai CPC naik terus dan frekuensi tinggi), saatnya cari audience baru",
+              "Cara 1 — Lookalike Audience: buka business.facebook.com, ketuk menu garis tiga, pilih Pemirsa (Audiences)",
+              "Ketuk tombol biru Buat Pemirsa, lalu pilih Lookalike Audience",
+              "Pilih sumber data: misal Custom Audience berisi orang yang pernah chat WA atau daftar pembeli",
+              "Pilih lokasi Indonesia, dan ukuran 1% (artinya 1% populasi yang paling mirip dengan sumber datamu)",
+              "Ketuk Buat Pemirsa. Tunggu beberapa jam sampai statusnya berubah menjadi Siap",
+              "Cara 2 — Broad targeting: buat adset baru, kosongkan bagian interest dan detail targeting",
+              "Isi hanya umur, jenis kelamin, dan lokasi. Biarkan algoritma Meta yang mencari sendiri orang yang tepat",
+              "Broad cocok dipakai kalau Pixel sudah punya banyak data (ratusan konversi tercatat)",
+              "Test audience baru dengan budget kecil dulu sebelum di-scale besar",
+              "Tanda berhasil: ada 1-2 audience baru yang siap di-test dengan status Siap"
+            ]
+          },
+          {
+            "text": "Pasang Automated Rules untuk jaga-jaga otomatis",
+            "panduan": [
+              "Automated Rules adalah aturan otomatis — misal iklan dimatikan sendiri kalau boncos, jadi kamu tidak harus mantengin HP terus",
+              "Buka Ads Manager, centang campaign, adset, atau iklan yang mau dipasangi aturan",
+              "Ketuk tombol Aturan (Rules) di toolbar atas, lalu pilih Buat Aturan Baru",
+              "Pilih Aturan Kustom (Custom Rule) untuk mengatur sendiri kondisinya",
+              "Atur kondisi, contoh aturan matikan boncos: pilih metrik Belanja iklan (jumlah), operator lebih besar dari, isi nilai 50000",
+              "Ketuk tambah kondisi, pilih metrik Pembelian, operator sama dengan, isi nilai 0",
+              "Atur jangka waktu: pilih 3 hari terakhir agar data cukup stabil",
+              "Pilih aksi yang dilakukan: Matikan (Turn off)",
+              "Centang opsi kirim notifikasi agar kamu dapat pemberitahuan saat aturan berjalan",
+              "Beri nama aturan yang jelas, misal: Auto-off boncos 50rb",
+              "Ketuk Buat. Aturan akan memeriksa kondisi secara berkala (biasanya tiap beberapa jam)",
+              "Contoh aturan lain untuk scale: Naikkan budget 20% jika ROAS lebih besar dari 5 dalam 3 hari terakhir",
+              "Cek daftar aturan secara berkala untuk memastikan statusnya Aktif dan berjalan benar",
+              "Tanda berhasil: aturan muncul di daftar Rules dengan status Aktif"
+            ]
+          },
+          {
+            "text": "Catat dan evaluasi hasil scale setiap minggu",
+            "panduan": [
+              "Buka catatan atau jurnal iklanmu — bisa buku fisik atau Google Sheets di HP",
+              "Setiap akhir minggu, catat 4 angka utama: total belanja iklan, total omzet, ROAS, dan jumlah order",
+              "Bandingkan dengan minggu sebelumnya — angkanya naik, turun, atau stagnan?",
+              "Catat juga aksi scale apa yang dilakukan minggu itu: naik budget berapa, duplikat adset apa, test audience apa",
+              "Kalau ROAS turun setelah scale, analisis penyebabnya dengan 3 pertanyaan ini",
+              "Pertanyaan 1: apakah budget naik terlalu cepat (lebih dari 20%)? Kalau ya, turunkan kembali",
+              "Pertanyaan 2: apakah audience sudah jenuh (frekuensi di atas 3)? Kalau ya, test audience baru",
+              "Pertanyaan 3: apakah konten sudah basi alias fatigue (CTR turun padahal dulu tinggi)? Kalau ya, rotasi konten baru dari angle pemenang",
+              "Tentukan 1-2 target untuk minggu depan, misal: naikkan budget 20% lagi, atau test 1 audience baru",
+              "Konsisten mencatat setiap minggu — pengiklan yang mencatat selalu lebih cepat naik level dibanding yang mengandalkan ingatan",
+              "Tanda berhasil: kamu punya catatan mingguan yang menunjukkan tren performa naik"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tpl-produkdigital",
+    "nama": "📦 Jualan Produk Digital",
+    "deskripsi": "Bikin dan jual produk digital (ebook, template, kelas) dari nol sampai laku. Modal kecil, margin hampir 100%.",
+    "levels": [
+      {
+        "nama": "Level 1 — Tentukan Produk",
+        "deskripsi": "Jangan bikin produk yang tidak ada yang mau beli. Validasi dulu sebelum produksi.",
+        "tasks": [
+          {
+            "text": "List 5-10 skill atau pengalaman yang bisa dijual",
+            "panduan": [
+              "Buka aplikasi catatan di HP (atau ambil kertas dan pulpen)",
+              "Tulis semua skill yang kamu punya, sekecil apapun. Contoh: bisa desain Canva, jago masak, paham akuntansi, bisa bahasa Inggris",
+              "Tulis juga pengalaman kerja atau hobimu. Contoh: 5 tahun jadi admin, hobi fotografi pakai HP, pernah bangun usaha kecil",
+              "Tulis masalah yang pernah kamu selesaikan untuk dirimu sendiri. Contoh: berhasil turun 10 kg, berhasil lolos tes CPNS",
+              "Dari semua list itu, lingkari 5 yang paling kamu kuasai DAN paling kamu nikmati mengerjakannya",
+              "Untuk tiap yang dilingkari, tulis 1 kalimat dengan pola: Saya bisa bantu orang [hasil] dengan cara [metodemu]",
+              "Contoh kalimat: Saya bisa bantu ibu-ibu bikin bekal sehat dengan cara meal prep 30 menit",
+              "Contoh lain: Saya bisa bantu fresh graduate lolos interview dengan cara simulasi dan feedback",
+              "Pilih yang kalimatnya paling jelas dan hasilnya paling diinginkan orang",
+              "Tanda berhasil: ada 5 kandidat topik produk digital tertulis di catatanmu"
+            ]
+          },
+          {
+            "text": "Validasi demand: pastikan ada yang mau bayar",
+            "panduan": [
+              "Ambil 3 kandidat teratas dari task sebelumnya",
+              "Buka aplikasi Shopee di HP, ketuk kolom pencarian di atas, ketik kata kunci topikmu (misal: ebook diet, template canva, kelas excel)",
+              "Lihat apakah ada produk digital sejenis yang terjual. Kalau ada yang terjual ratusan atau ribuan = demand terbukti ada",
+              "Kalau tidak ada sama sekali yang jualan, waspada — bisa jadi memang tidak ada pasarnya",
+              "Buka Chrome, ketik di Google: topikmu + kata ebook atau kursus. Lihat apakah ada yang jualan via website sendiri",
+              "Cek grup Facebook atau komunitas: apakah orang sering bertanya tentang topik ini? Banyak yang bertanya = banyak yang butuh solusi",
+              "Test langsung: posting di status WA atau IG story: Kalau ada panduan [topikmu], ada yang mau? Lihat berapa yang respons positif",
+              "Bandingkan 3 kandidat: mana yang bukti demand-nya paling kuat?",
+              "Pilih 1 topik dengan bukti terkuat sebagai produk pertamamu",
+              "Tanda berhasil: kamu punya bukti (screenshot penjualan kompetitor atau respons positif) bahwa topikmu ada pasarnya"
+            ]
+          },
+          {
+            "text": "Tentukan format produk: ebook, template, atau kelas",
+            "panduan": [
+              "Kenali 3 format produk digital yang paling populer saat ini",
+              "Format 1 — Ebook atau PDF: dokumen panduan yang bisa dibaca. Cocok untuk panduan langkah-demi-langkah, resep, kumpulan tips",
+              "Format 2 — Template: file siap pakai. Contoh: template desain Canva, template laporan Excel, template CV. Nilai jualnya di kata tinggal pakai",
+              "Format 3 — Kelas video: rekaman video pembelajaran. Cocok untuk skill praktik seperti masak, desain, atau bahasa",
+              "Untuk pemula sangat disarankan mulai dari ebook atau template — paling cepat jadi dan paling mudah dijual",
+              "Kelas video butuh effort paling besar: rekam, edit, upload — simpan untuk produk keduamu",
+              "Tentukan juga perkiraan isi: misal ebook 30-50 halaman, atau template berisi 20 file",
+              "Tulis keputusanmu dengan lengkap: Saya akan buat [format] tentang [topik], berisi [gambaran isi]",
+              "Tanda berhasil: format produk sudah ditentukan dan tertulis jelas"
+            ]
+          },
+          {
+            "text": "Tentukan harga jual",
+            "panduan": [
+              "Buka Shopee atau Tokopedia di HP, cari produk digital sejenis dengan topikmu",
+              "Catat rentang harganya di catatan. Contoh: ebook diet dijual Rp25.000 sampai Rp150.000",
+              "Produk digital dari pemula biasanya laku di kisaran Rp29.000 sampai Rp99.000",
+              "Di atas Rp100.000 biasanya butuh brand atau kepercayaan yang lebih kuat — jangan langsung pasang mahal",
+              "Trik psikologi harga: Rp49.000 terasa jauh lebih murah dari Rp50.000 karena angka 9 di ujung",
+              "Siapkan juga harga coret untuk promo: misal harga normal Rp99.000, harga promo Rp49.000",
+              "Ingat keunggulan produk digital: tidak ada ongkir, tidak ada stok habis — margin hampir 100% setelah dikurangi biaya iklan",
+              "Tulis di catatan: harga normal, harga promo, dan alasanmu memilih angka itu",
+              "Bandingkan sekali lagi dengan kompetitor: hargamu masuk akal dan tidak terlalu jauh",
+              "Tanda berhasil: harga sudah ditentukan dan masuk akal dibanding kompetitor"
+            ]
+          }
+        ]
+      },
+      {
+        "nama": "Level 2 — Produksi",
+        "deskripsi": "Bikin produknya. Tidak harus sempurna — versi 1 yang jadi lebih baik dari rencana sempurna yang tidak jadi-jadi.",
+        "tasks": [
+          {
+            "text": "Susun outline / daftar isi produk",
+            "panduan": [
+              "Outline adalah kerangka isi — daftar bab atau bagian produk sebelum kamu tulis detailnya",
+              "Buka Chrome di HP, ketik docs.google.com, tekan Enter, lalu login dengan akun Google-mu",
+              "Ketuk tombol + atau Dokumen kosong untuk buat dokumen baru",
+              "Beri judul dokumen sesuai nama produkmu di bagian atas",
+              "Tulis 5-10 bab atau bagian utama dengan pola gampang ini",
+              "Bagian 1: Pengenalan — kenapa topik ini penting dan untuk siapa",
+              "Bagian 2-8: Langkah-langkah inti dari paling dasar sampai paling lanjut",
+              "Bagian 9: Studi kasus atau contoh nyata penerapan",
+              "Bagian 10: Penutup dan langkah selanjutnya untuk pembaca",
+              "Di bawah tiap bab, tulis 3-5 poin sub-bab secara singkat sebagai pengingat",
+              "Minta 1-2 teman membaca outlinemu: apakah alurnya masuk akal? Apakah ada yang kurang?",
+              "Revisi outline berdasarkan masukan mereka",
+              "Tanda berhasil: ada dokumen outline lengkap yang siap dikembangkan jadi konten"
+            ]
+          },
+          {
+            "text": "Tulis / buat konten produk",
+            "panduan": [
+              "Kerjakan 1 bab per hari agar tidak kewalahan. Kalau 10 bab berarti 10 hari — itu wajar",
+              "Buka dokumen outline di Google Docs yang sudah dibuat sebelumnya",
+              "Untuk tiap bab, tulis dengan bahasa sehari-hari seperti sedang ngobrol — jangan bahasa kaku seperti skripsi",
+              "Tambahkan contoh konkret di setiap konsep yang dijelaskan. Jangan cuma teori tanpa contoh",
+              "Tambahkan gambar atau screenshot kalau membantu pemahaman. Di aplikasi Docs: ketuk ikon + lalu pilih Gambar",
+              "Target tiap bab 3-5 halaman. Total 30-50 halaman sudah sangat layak untuk dijual",
+              "Setelah semua bab selesai, baca ulang dari bab 1 sampai akhir dalam sekali duduk",
+              "Perbaiki typo (salah ketik) dan kalimat yang membingungkan saat dibaca ulang",
+              "Minta 1 orang untuk test baca: apakah mereka paham? Bagian mana yang membingungkan?",
+              "Perbaiki bagian yang membingungkan berdasarkan feedback",
+              "Tanda berhasil: naskah produk selesai dan sudah dibaca ulang sampai rapi"
+            ]
+          },
+          {
+            "text": "Desain cover yang menarik",
+            "panduan": [
+              "Cover adalah wajah produkmu — yang dilihat pertama kali calon pembeli. Cover jelek membuat orang langsung skip",
+              "Buka aplikasi Canva di HP (download gratis di Play Store kalau belum ada) atau ketik canva.com di Chrome",
+              "Daftar atau login dengan akun Google-mu, gratis",
+              "Ketuk tombol Buat desain, lalu pilih Sampul eBook atau ketik ukuran custom 1600 x 2560 piksel",
+              "Pilih salah satu template yang sesuai dengan topikmu dari galeri template",
+              "Ganti isi template: judul dibuat besar dan jelas, tambah sub-judul berisi manfaat, tulis nama penulis (namamu)",
+              "Aturan desain yang aman: maksimal 3 warna, maksimal 2 jenis font, sisakan ruang kosong jangan penuh sesak",
+              "Tambahkan elemen visual yang mewakili isi — pakai ilustrasi atau ikon dari Canva agar aman dari masalah hak cipta",
+              "Jangan ambil foto asal dari Google karena bisa kena masalah hak cipta",
+              "Test penting: perkecil tampilan (zoom out) sampai seukuran thumbnail di HP — apakah judul masih terbaca? Kalau tidak, perbesar fontnya",
+              "Kalau sudah puas, ketuk tombol Unduh, pilih format PNG, kualitas tinggi",
+              "Tanda berhasil: ada file cover PNG yang terlihat profesional walau dilihat dalam ukuran kecil"
+            ]
+          },
+          {
+            "text": "Siapkan file delivery (link download)",
+            "panduan": [
+              "Delivery artinya cara pembeli menerima produk setelah bayar. Untuk produk digital, delivery = link download",
+              "Export naskahmu jadi PDF: di aplikasi Google Docs, ketuk ikon tiga titik, pilih Bagikan dan ekspor, lalu Simpan sebagai PDF",
+              "Tunggu proses export selesai, pastikan file PDF tersimpan di HP-mu",
+              "Buka aplikasi Google Drive (atau ketik drive.google.com di Chrome), login dengan akun Google-mu",
+              "Ketuk tombol + (tambah), pilih Upload, lalu pilih file PDF produkmu dari penyimpanan HP",
+              "Tunggu sampai upload selesai 100% — jangan tutup aplikasi",
+              "Setelah selesai, ketuk ikon tiga titik di file tersebut, pilih Kelola akses",
+              "Ubah pengaturannya menjadi Siapa saja yang memiliki link agar pembeli bisa download tanpa harus login",
+              "Ketuk Salin link — simpan link ini baik-baik di catatan, ini yang akan dikirim ke pembeli",
+              "Test penting: buka link tersebut di browser mode incognito atau private — apakah file bisa didownload? Kalau ya, berarti pengaturannya benar",
+              "Untuk produk template yang terdiri dari banyak file: masukkan semua file dalam 1 folder di Drive, lalu bagikan link foldernya dengan cara yang sama",
+              "Tanda berhasil: ada link Drive yang kalau dibuka orang lain, bisa langsung download produkmu"
+            ]
+          },
+          {
+            "text": "Siapkan bonus untuk killing offer",
+            "panduan": [
+              "Killing offer adalah penawaran yang bikin calon pembeli susah menolak — rumusnya: produk utama + bonus melimpah",
+              "Bonus tidak harus besar atau mahal. Yang penting terlihat bernilai bagi pembeli",
+              "Contoh bonus yang gampang dibuat: (1) checklist PDF 1 halaman, (2) template tambahan, (3) akses grup diskusi WA atau Telegram, (4) update gratis selamanya",
+              "Buat 2-3 bonus sederhana yang relevan dengan produk utamamu",
+              "Contoh: kalau produkmu ebook diet, bonusnya bisa berupa tabel kalori PDF + jadwal meal prep + grup WA pendampingan",
+              "Tiap bonus dibuatkan file atau link sendiri seperti produk utama (upload ke Drive, salin link)",
+              "Hitung nilai total untuk bahan promosi: misal produk Rp49.000 + bonus A (nilai Rp29.000) + bonus B (nilai Rp39.000)",
+              "Total nilai = Rp117.000, tapi dijual cuma Rp49.000 — ini yang ditulis di landing page nanti",
+              "Tulis daftar bonus beserta nilainya masing-masing di catatan",
+              "Tanda berhasil: ada 2-3 bonus siap pakai dengan nilai yang jelas"
+            ]
+          }
+        ]
+      },
+      {
+        "nama": "Level 3 — Jualan",
+        "deskripsi": "Produk sudah jadi, saatnya dijual. Tanpa promosi, produk terbaik pun tidak akan laku.",
+        "tasks": [
+          {
+            "text": "Bikin landing page sederhana",
+            "panduan": [
+              "Landing page adalah halaman web khusus untuk jualan 1 produk — isinya penawaran, bukan katalog",
+              "Untuk pemula, pakai platform yang gampang tanpa coding: Berdu (ketik berdu.id di Chrome), OrderOnline (orderonline.id), atau Carrd (carrd.co)",
+              "Buka salah satunya, daftar akun baru dengan email-mu (ada yang gratis, ada yang berbayar murah per bulan)",
+              "Setelah login, pilih template kategori jualan produk digital atau landing page",
+              "Susun struktur halaman mengikuti framework sederhana ini",
+              "Bagian 1: Headline besar berisi manfaat utama produkmu",
+              "Bagian 2: Masalah yang dialami pembaca (buat mereka merasa ini untuk saya)",
+              "Bagian 3: Solusi — kenalkan produkmu sebagai jalan keluar",
+              "Bagian 4: Isi atau daftar isi produk (tunjukkan isinya berbobot)",
+              "Bagian 5: Bonus-bonus yang didapat pembeli",
+              "Bagian 6: Testimoni (kosongkan dulu, diisi nanti setelah ada pembeli)",
+              "Bagian 7: Harga (tampilkan harga coret dan harga promo) + tombol beli yang besar",
+              "Bagian 8: Garansi (misal: tidak puas, uang kembali 7 hari) untuk menurunkan keraguan",
+              "Bagian 9: FAQ — jawab 3-5 pertanyaan yang sering ditanyakan",
+              "Upload cover produkmu sebagai gambar utama halaman",
+              "Pasang tombol Beli Sekarang yang mengarah ke nomor WhatsApp-mu atau ke form order",
+              "Preview halaman di tampilan HP — pastikan rapi, teks terbaca, dan tombol mudah diklik",
+              "Kalau sudah rapi, ketuk Publikasikan dan catat URL landing page-mu",
+              "Tanda berhasil: ada URL landing page yang bisa dibuka dan terlihat meyakinkan"
+            ]
+          },
+          {
+            "text": "Tulis copywriting penawaran",
+            "panduan": [
+              "Copywriting adalah tulisan yang menjual — setiap kalimat harus bikin pembaca mau lanjut baca dan akhirnya beli",
+              "Rumus headline yang ampuh: [Hasil yang diinginkan] + [tanpa] + [hal yang dibenci]",
+              "Contoh headline: Turun 10kg Tanpa Diet Menyiksa dan Tanpa Olahraga Berat",
+              "Bagian masalah: tulis 3-5 kalimat yang menggambarkan penderitaan pembaca. Pakai kata kamu agar terasa personal",
+              "Contoh: Capek kan coba diet A gagal, diet B gagal, berat badan naik-turun terus?",
+              "Bagian solusi: kenalkan produkmu sebagai jalan keluar. Contoh: Kabar baiknya, ada cara yang beda...",
+              "Tulis manfaat dalam bullet points (tanda titik), fokus ke HASIL bukan fitur",
+              "Contoh yang benar: panduan 30 hari yang tinggal diikuti (hasil). Contoh yang salah: 50 halaman PDF (fitur)",
+              "Bagian bonus: list semua bonus + nilainya masing-masing, tekankan kata GRATIS hari ini saja",
+              "Bagian harga: tampilkan harga coret misal Rp99.000, lalu harga promo dengan font besar misal Rp49.000",
+              "Tambahkan urgensi agar tidak ditunda: Harga promo berakhir dalam 3 hari atau Bonus hanya untuk 50 pembeli pertama",
+              "Akhiri dengan CTA (Call to Action = ajakan bertindak) yang jelas pada tombol: Ya, Saya Mau!",
+              "Baca ulang semuanya: apakah kamu sendiri tertarik beli setelah membacanya? Kalau tidak, revisi bagian yang lemah",
+              "Minta 1 teman baca dan tanya: bagian mana yang bikin kamu pengen beli? Bagian mana yang membingungkan?",
+              "Tanda berhasil: copywriting selesai dan minimal 1 orang bilang menarik setelah membacanya"
+            ]
+          },
+          {
+            "text": "Pasang iklan Meta Ads untuk produk digital",
+            "panduan": [
+              "Produk digital cocok diiklankan via Meta Ads dengan objective Penjualan atau Traffic ke landing page",
+              "Buka Chrome, ketik business.facebook.com, login, buka menu, ketuk Ads Manager",
+              "Ketuk tombol hijau + Buat untuk membuat campaign baru",
+              "Pilih objective Penjualan (Sales), lalu ketuk Lanjutkan",
+              "Beri nama campaign yang jelas, misal: PD-NamaProduk-Testing (PD = Produk Digital)",
+              "Di level Adset: atur lokasi ke Indonesia",
+              "Atur umur sesuai target pembelimu, misal 20-40 tahun",
+              "Pilih 1-2 interest yang relevan dengan topik produkmu di kolom targeting",
+              "Atur budget awal Rp50.000 sampai Rp100.000 per hari — cukup untuk testing, jangan langsung besar",
+              "Di level Iklan (Ad): ketuk tambah media, upload gambar cover produk atau video promosi",
+              "Tulis primary text (teks utama iklan): headline + manfaat + ajakan. Contoh: Ebook Diet 30 Hari — turun 10kg tanpa menyiksa. Klik untuk lihat isinya!",
+              "Di kolom URL tujuan atau Website URL, tempel URL landing page dari task sebelumnya",
+              "Cek ulang semua pengaturan dari atas sampai bawah sebelum publish",
+              "Ketuk Publikasikan dan tunggu status berubah menjadi Aktif",
+              "Biarkan jalan 2-3 hari tanpa diedit, lalu baca datanya (CTR, CPC, konversi) seperti di template Scale Up",
+              "Tanda berhasil: iklan berstatus Aktif dan ada traffic yang masuk ke landing page"
+            ]
+          },
+          {
+            "text": "Kelola order dan kirim produk ke pembeli",
+            "panduan": [
+              "Siapkan alur order yang sederhana: pembeli chat WA, kamu kasih info pembayaran, pembeli kirim bukti transfer, kamu kirim link produk",
+              "Buka aplikasi WhatsApp Business di HP-mu (download di Play Store kalau belum ada, ikonnya huruf B)",
+              "Ketuk ikon tiga titik di kanan atas, pilih Fitur bisnis, lalu pilih Pesan sapaan",
+              "Aktifkan pesan sapaan dan tulis pesannya. Contoh: Halo! Terima kasih sudah tertarik dengan [nama produk]. Untuk order, silakan transfer ke [nomor rekening] sebesar Rp[X], lalu kirim bukti transfernya di sini ya",
+              "Simpan pesan sapaan tersebut",
+              "Buat Balasan cepat agar tidak ketik manual tiap ada order: kembali ke Fitur bisnis, pilih Balasan cepat",
+              "Ketuk tambah, buat shortcut misal /kirim dengan isi pesan: Terima kasih sudah order! Ini link download produknya: [link Drive]. Bonus-bonusnya ada di folder yang sama. Selamat belajar!",
+              "Simpan balasan cepat tersebut",
+              "Alur setiap ada order: (1) cek dan pastikan bukti transfer valid, (2) catat nama pembeli + tanggal di buku atau Google Sheets, (3) kirim link produk pakai balasan cepat /kirim",
+              "Jangan pernah kirim link produk SEBELUM pembayaran terkonfirmasi — ini aturan wajib",
+              "Tanda berhasil: alur order, bayar, kirim berjalan lancar tanpa kamu harus mengetik manual tiap kali"
+            ]
+          },
+          {
+            "text": "Kumpulkan testimoni pembeli",
+            "panduan": [
+              "Testimoni adalah senjata jualan paling ampuh — calon pembeli lebih percaya kata pembeli lain daripada kata-katamu sendiri",
+              "Tunggu 3-7 hari setelah pembeli menerima produk agar mereka sempat mencoba",
+              "Chat mereka dengan sopan: Halo kak! Gimana kesannya setelah baca atau pakai [nama produk]? Boleh minta review singkatnya?",
+              "Kalau mereka memberi review yang bagus, lanjutkan: Boleh saya screenshot dan tampilkan di halaman jualan? Namanya boleh disamarkan kalau kakak mau",
+              "Screenshot chat testimoni tersebut: di HP Android tekan tombol power + volume bawah bersamaan",
+              "Simpan semua screenshot testimoni di satu folder khusus bernama Testimoni di galeri atau Google Drive",
+              "Buka platform landing page-mu, tambah bagian baru khusus testimoni, upload screenshot-screenshot tersebut",
+              "Susun dari yang paling meyakinkan di urutan teratas",
+              "Target: kumpulkan minimal 5 testimoni sebelum kamu scale iklan besar-besaran",
+              "Testimoni juga bisa dijadikan konten iklan — angle testimoni biasanya CTR-nya tinggi",
+              "Setiap ada testimoni baru, langsung tambahkan ke landing page agar makin meyakinkan",
+              "Tanda berhasil: ada 5 atau lebih screenshot testimoni dan semuanya sudah tampil di landing page"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];
