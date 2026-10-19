@@ -204,14 +204,30 @@ function openProject(id) {
   document.getElementById('pmodal-content').querySelectorAll('.task').forEach(el =>
     el.addEventListener('click', () => openTaskGuide(id, Number(el.dataset.li), Number(el.dataset.ti))));
 }
+/* ---- cari panduan dari template berdasarkan teks task (untuk project lama) ---- */
+function cariPanduan(text) {
+  const ts = window.PROJECT_TEMPLATES || [];
+  for (const t of ts)
+    for (const l of t.levels)
+      for (const tk of l.tasks)
+        if (tk.text === text && tk.panduan && tk.panduan.length) return tk.panduan;
+  return null;
+}
+
 /* ---- panduan per task: klik task → panduan + tombol tandai selesai ---- */
 function openTaskGuide(pid, li, ti) {
   const ps = loadProjects();
   const p = ps.find(x => x.id === pid);
   if (!p) return;
   const t = p.levels[li].tasks[ti];
-  const panduan = t.panduan && t.panduan.length ? t.panduan :
-    ['Ikuti materi terkait di tab 📖 Materi untuk panduan langkah demi langkah.'];
+  let panduan = (t.panduan && t.panduan.length) ? t.panduan : cariPanduan(t.text);
+  if (!panduan || !panduan.length)
+    panduan = ['Ikuti materi terkait di tab 📖 Materi untuk panduan langkah demi langkah.'];
+  // simpan panduan yang ditemukan agar tidak dicari ulang
+  if ((!t.panduan || !t.panduan.length) && panduan.length > 1) {
+    t.panduan = panduan;
+    saveProjects(ps);
+  }
   document.getElementById('pmodal-content').innerHTML = `
     <button class="btn ghost btn-sm" id="guide-back">← Kembali</button>
     <h2 style="margin-top:10px">${t.done ? '✅' : '📌'} ${esc(t.text)}</h2>
