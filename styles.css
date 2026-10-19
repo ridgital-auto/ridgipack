@@ -183,3 +183,6 @@ footer { text-align: center; padding: 18px; color: var(--muted); font-size: 13px
 .task:last-child { border-bottom: none; }
 .task-check { font-size: 17px; flex-shrink: 0; }
 .task.done span:last-child { text-decoration: line-through; color: var(--muted); }
+
+/* ---- logo header ---- */
+.logo-img { width: 36px; height: 36px; border-radius: 8px; vertical-align: middle; }
