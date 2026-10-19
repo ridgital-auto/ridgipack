@@ -7,10 +7,14 @@
 (function () {
   const LS_KEY = 'am_drive_cfg_v1';      // {client_id, email, folder_id, file_id}
   const BACKUP_NAME = 'akademi-marketer-backup.json';
+  const DEFAULT_CLIENT_ID = '101053323032-e1i8lt23potvb96bsoh2cr2tml5fdb8c.apps.googleusercontent.com';
 
   function cfg() {
-    try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; }
-    catch { return {}; }
+    try {
+      const c = JSON.parse(localStorage.getItem(LS_KEY)) || {};
+      if (!c.client_id) c.client_id = DEFAULT_CLIENT_ID;
+      return c;
+    } catch { return { client_id: DEFAULT_CLIENT_ID }; }
   }
   function setCfg(c) { localStorage.setItem(LS_KEY, JSON.stringify(c)); }
 
