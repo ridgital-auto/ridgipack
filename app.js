@@ -94,10 +94,19 @@ function infografikUntuk(judul) {
 }
 
 /* ---- modal detail ---- */
+const CAT_IMG = {
+  '321776': 'img/cat-meta-ads.webp',
+  '426839': 'img/cat-dropship.webp',
+  '321773': 'img/cat-landing.webp',
+  '367194': 'img/cat-landing.webp',
+  '321766': 'img/cat-fundamental.webp'
+};
 function openDetail(d) {
   if (!d) return;
   const ig = infografikUntuk(d.judul);
+  const img = CAT_IMG[d.library] ? `<img src="${CAT_IMG[d.library]}" class="detail-img" alt="${esc(libName(d.library))}">` : '';
   document.getElementById('modal-content').innerHTML = `
+    ${img}
     <div class="lib">${esc(libName(d.library))}</div>
     <h2>${esc(d.judul)}</h2>
     <h4>📝 Ringkasan</h4>
@@ -184,21 +193,51 @@ function openProject(id) {
         <h4>🎚️ ${esc(l.nama)} <span class="muted">(${ldone}/${l.tasks.length})</span></h4>
         ${l.deskripsi ? `<p class="muted">${esc(l.deskripsi)}</p>` : ''}
         ${l.tasks.map((t, ti) => `
-          <label class="task ${t.done ? 'done' : ''}">
-            <input type="checkbox" data-li="${li}" data-ti="${ti}" ${t.done ? 'checked' : ''}>
+          <div class="task ${t.done ? 'done' : ''}" data-li="${li}" data-ti="${ti}">
+            <span class="task-check">${t.done ? '✅' : '⬜'}</span>
             <span>${esc(t.text)}</span>
-          </label>`).join('')}
+          </div>`).join('')}
       </div>`;
     }).join('')}`;
   document.getElementById('pmodal').classList.remove('hidden');
-  document.getElementById('pmodal-content').querySelectorAll('input[type=checkbox]')
-    .forEach(cb => cb.addEventListener('change', () => {
-      const ps = loadProjects();
-      const pj = ps.find(x => x.id === id);
-      pj.levels[Number(cb.dataset.li)].tasks[Number(cb.dataset.ti)].done = cb.checked;
-      saveProjects(ps);
-      openProject(id); renderProjects();
-    }));
+  // klik task → tampilkan panduan, bukan langsung coret
+  document.getElementById('pmodal-content').querySelectorAll('.task').forEach(el =>
+    el.addEventListener('click', () => openTaskGuide(id, Number(el.dataset.li), Number(el.dataset.ti))));
+}
+/* ---- panduan per task: klik task → panduan + tombol tandai selesai ---- */
+function openTaskGuide(pid, li, ti) {
+  const ps = loadProjects();
+  const p = ps.find(x => x.id === pid);
+  if (!p) return;
+  const t = p.levels[li].tasks[ti];
+  const panduan = t.panduan && t.panduan.length ? t.panduan :
+    ['Ikuti materi terkait di tab 📖 Materi untuk panduan langkah demi langkah.'];
+  document.getElementById('pmodal-content').innerHTML = `
+    <button class="btn ghost btn-sm" id="guide-back">← Kembali</button>
+    <h2 style="margin-top:10px">${t.done ? '✅' : '📌'} ${esc(t.text)}</h2>
+    <p class="muted">${esc(p.levels[li].nama)}</p>
+    <h4>👣 Langkah Praktik</h4>
+    <ol class="detail-list">${panduan.map(s => `<li>${esc(s)}</li>`).join('')}</ol>
+    <div class="row" style="margin-top:16px">
+      ${t.done
+        ? `<button class="btn ghost" id="guide-undone">↩️ Batalkan selesai</button>`
+        : `<button class="btn primary" id="guide-done">✅ Tandai Selesai</button>`}
+    </div>`;
+  document.getElementById('guide-back').addEventListener('click', () => openProject(pid));
+  const doneBtn = document.getElementById('guide-done');
+  if (doneBtn) doneBtn.addEventListener('click', () => {
+    const ps2 = loadProjects();
+    ps2.find(x => x.id === pid).levels[li].tasks[ti].done = true;
+    saveProjects(ps2);
+    openProject(pid); renderProjects();
+  });
+  const undoneBtn = document.getElementById('guide-undone');
+  if (undoneBtn) undoneBtn.addEventListener('click', () => {
+    const ps2 = loadProjects();
+    ps2.find(x => x.id === pid).levels[li].tasks[ti].done = false;
+    saveProjects(ps2);
+    openProject(pid); renderProjects();
+  });
 }
 document.getElementById('pmodal-close').addEventListener('click', () =>
   document.getElementById('pmodal').classList.add('hidden'));
@@ -299,7 +338,7 @@ document.getElementById('btn-from-template').addEventListener('click', () => {
       const ps = loadProjects();
       ps.push({
         id: uid(), nama: t.nama, deskripsi: t.deskripsi,
-        levels: t.levels.map(l => ({ nama: l.nama, deskripsi: l.deskripsi, tasks: l.tasks.map(tx => ({ text: tx, done: false })) }))
+        levels: t.levels.map(l => ({ nama: l.nama, deskripsi: l.deskripsi, tasks: l.tasks.map(tk => ({ text: tk.text, panduan: tk.panduan || [], done: false })) }))
       });
       saveProjects(ps);
       document.getElementById('pmodal').classList.add('hidden');

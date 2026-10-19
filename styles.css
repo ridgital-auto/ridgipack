@@ -172,3 +172,14 @@ footer { text-align: center; padding: 18px; color: var(--muted); font-size: 13px
 .auth-area { display: flex; align-items: center; gap: 8px; padding: 8px 16px;
   border-top: 1px solid var(--border); font-size: 13.5px; flex-wrap: wrap; }
 .auth-email { font-weight: 600; color: var(--ok); }
+
+/* ---- gambar detail ---- */
+.detail-img { width: 100%; border-radius: 12px; margin-bottom: 14px; max-height: 220px; object-fit: cover; }
+
+/* ---- task sebagai tombol panduan ---- */
+.task { display: flex; gap: 10px; align-items: flex-start; padding: 10px 8px;
+  border-bottom: 1px solid var(--border); cursor: pointer; font-size: 14.5px; border-radius: 8px; }
+.task:hover { background: rgba(255,255,255,.04); }
+.task:last-child { border-bottom: none; }
+.task-check { font-size: 17px; flex-shrink: 0; }
+.task.done span:last-child { text-decoration: line-through; color: var(--muted); }
