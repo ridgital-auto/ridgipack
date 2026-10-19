@@ -124,7 +124,10 @@ function loadProjects() {
   try { return JSON.parse(localStorage.getItem(PKEY)) || []; }
   catch { return []; }
 }
-function saveProjects(p) { localStorage.setItem(PKEY, JSON.stringify(p)); }
+function saveProjects(p) {
+  localStorage.setItem(PKEY, JSON.stringify(p));
+  if (window.amScheduleBackup) window.amScheduleBackup();
+}
 function uid() { return 'p' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
 
 function projectProgress(p) {
